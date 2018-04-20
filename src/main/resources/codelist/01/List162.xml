@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>文件格式</name>
+<explane>资源版本特征值（&lt;ResourceVersionFeatureValue&gt;）的内容为“表95 支持资源文件格式”中的代码，格式为定长4位</explane>
+</code>
+<code id="02">
+<name>图像高度</name>
+<explane>资源版本特征值（&lt;ResourceVersionFeatureValue&gt;）的内容为以像素为单位的图像高度，格式为整数</explane>
+</code>
+<code id="03">
+<name>图像宽度</name>
+<explane>资源版本特征值（&lt;ResourceVersionFeatureValue&gt;）的内容为以像素为单位的图像宽度，格式为整数</explane>
+</code>
+<code id="04">
+<name>文件名称</name>
+<explane>资源版本特征值（&lt;ResourceVersionFeatureValue&gt;）的内容为支持资源的文件名称，格式为任意字符</explane>
+</code>
+<code id="05">
+<name>下载文件尺寸</name>
+<explane>资源版本特征值（&lt;ResourceVersionFeatureValue&gt;）的内容为以兆字节为单位的下载文件尺寸，格式为10进制数字</explane>
+</code>
+<code id="06">
+<name>MD5 散列值</name>
+<explane>资源版本特征值（&lt;ResourceVersionFeatureValue&gt;）的内容为资源文件中的MD5 散列值，格式为32个十六进制数字。可用MD5 散列值对资源的完整性进行验证</explane>
+</code>
+</list>

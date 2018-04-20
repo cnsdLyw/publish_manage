@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>会员订阅价格</name>
+<explane>用于指定的团体会员的价格</explane>
+</code>
+<code id="02">
+<name>出口价格</name>
+<explane>本地供应商向区域以外销售产品时的价格</explane>
+</code>
+<code id="03">
+<name>无套书价的成套优惠价</name>
+<explane>套书无统一价格时，成套购买的优惠价格</explane>
+</code>
+<code id="05">
+<name>消费者价格</name>
+<explane>面向消费者的价格</explane>
+</code>
+<code id="06">
+<name>团构价格</name>
+<explane>面向团体或机构客户的价格</explane>
+</code>
+</list>

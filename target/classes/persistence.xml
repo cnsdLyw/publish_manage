@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+	<persistence-unit name="userPU" transaction-type="RESOURCE_LOCAL">
+        <!--jpa的提供者-->
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<properties>
+            <!--声明数据库连接的驱动-->
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <!--jdbc数据库的连接地址-->
+           	
+			<property name="hibernate.connection.url" value="jdbc:mysql://127.0.0.1:3306/publish_fxpt?useUnicode=true&amp;characterEncoding=UTF-8"/>
+			<property name="hibernate.connection.username" value="root"/>
+			<property name="hibernate.connection.password" value="root"/>
+       		<!--  180.0.0.142 198.9.4.142
+            <property name="hibernate.connection.url" value="jdbc:mysql://198.9.4.167:3306/publish_21_2.0?useUnicode=true&amp;characterEncoding=UTF-8"/>
+			<property name="hibernate.connection.username" value="root"/>
+			<property name="hibernate.connection.password" value="Jetsen@123"/>
+              -->
+            <!--配置方言-->
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <!--激活查询日志功能-->
+			<property name="hibernate.show_sql" value="true"/>
+            <!--优雅地输出Sql-->
+			<property name="hibernate.format_sql" value="false"/>
+            <!--添加一条解释型标注-->
+			<property name="hibernate.use_sql_comments" value="false"/>
+			
+            <!--配置如何根据java模型生成数据库表结构,常用update,validate-->
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.cache.use_second_level_cache" value="true"/>
+		 	 <!-- 开启查询缓存 -->  
+       		<property name="hibernate.cache.use_query_cache" value="true"/>
+		 	<!-- 设置二级缓存插件EHCache的Provider类--> 
+		 	<property name="hibernate.cache.provider_class" value="net.sf.ehcache.hibernate.EhCacheProvider"/>
+		 	<!-- 高速缓存提供程序 -->  
+   			<property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+   			 <!-- 指定缓存配置文件位置 -->  
+   			<property name="hibernate.cache.provider_configuration_file_resource_path" value="classpath:ehcache.xml"/>
+   			<!-- 强制Hibernate以更人性化的格式将数据存入二级缓存 -->  
+	        <property name="hibernate.cache.use_structured_entries" value="true"/>  
+	        <!-- Hibernate将收集有助于性能调节的统计数据 -->  
+	        <property name="hibernate.generate_statistics" value="true"/>  
+			<!-- C3P0配置 -->
+			<property name="hibernate.connection.provider_class" value="org.hibernate.c3p0.internal.C3P0ConnectionProvider"/>
+			<!-- 最大连接数 -->
+			<property name="hibernate.c3p0.max_size">20</property>
+			<!-- 最小连接数 -->
+			<property name="hibernate.c3p0.min_size">5</property>
+			<!-- 获得连接的超时时间,如果超过这个时间,会抛出异常，单位毫秒 -->
+			<property name="hibernate.c3p0.timeout">120</property>
+			<!-- 最大的PreparedStatement的数量 -->
+			<property name="hibernate.c3p0.max_statements">100</property>
+			<!-- 每隔120秒检查连接池里的空闲连接 ，单位是秒-->
+			<property name="hibernate.c3p0.idle_test_period">120</property>
+			<!-- 当连接池里面的连接用完的时候，C3P0一下获取的新的连接数 -->
+			<property name="hibernate.c3p0.acquire_increment">2</property>
+			<!-- 每次都验证连接是否可用 -->
+            <property name="hibernate.c3p0.validate">true</property>
+           	<!-- 每次都验证连接是否可用 -->
+            <property name="hibernate.c3p0.testConnectionOnCheckout">true</property>
+			
+		</properties>
+	</persistence-unit>
+</persistence>

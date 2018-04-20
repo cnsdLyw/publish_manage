@@ -1,0 +1,44 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../config/ehcache.xsd">
+	<diskStore path="java.io.tmpdir/hibernate/jetsen" />
+	<defaultCache maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="false"
+		timeToIdleSeconds="5" timeToLiveSeconds="5" overflowToDisk="false" diskPersistent="false" />
+	
+	 <cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+		   maxElementsInMemory="5000" 
+	       eternal="true" 
+	       overflowToDisk="true" />
+	<cache name="org.hibernate.cache.internal.StandardQueryCache"
+	       maxElementsInMemory="10000" 
+	       eternal="false" 
+	       timeToLiveSeconds="120"
+	       overflowToDisk="true" />	
+	
+	<cache name="com.litc.security.model.Organization" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<cache name="com.litc.security.model.Organization.users" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<cache name="com.litc.security.model.User" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<cache name="com.litc.security.model.User.roleList" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<cache name="com.litc.security.model.Role" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<cache name="com.litc.security.model.Role.authorityList" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<cache name="com.litc.security.model.Authority" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	<!-- 	
+	<cache name="com.litc.model.task.process.ProcessTask" maxElementsInMemory="10000"
+		memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000" />
+	 -->
+		
+		<!-- 
+		name  缓存名称
+		maxElementsInMemory 缓存最大个数
+		memoryStoreEvictionPolicy 当达到maxElementsInMemory限制时，Ehcache将会根据指定的策略去清理内存。可以设置为FIFO（先进先出）或是LFU（较少使用）。
+		eternal 对象是否永久有效，一但设置了，timeout将不起作用。
+		diskPersistent 是否缓存虚拟机重启期数据，默认值为false。
+		overflowToDisk 当内存中对象数量达到maxElementsInMemory时，Ehcache将对象写到磁盘中。
+		maxElementsOnDisk 硬盘最大缓存个数。
+		 -->
+</ehcache>

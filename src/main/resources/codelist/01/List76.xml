@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="0">
+<name>全区</name>
+<explane>DVD或蓝光</explane>
+</code>
+<code id="1">
+<name>DVD一区</name>
+<explane>美国、美国领地、加拿大</explane>
+</code>
+<code id="2">
+<name>DVD二区</name>
+<explane>日本、欧盟、南非和中东地区（包括埃及）</explane>
+</code>
+<code id="3">
+<name>DVD三区</name>
+<explane>东南亚地区、中国香港、中国澳门、韩国和中国台湾</explane>
+</code>
+<code id="4">
+<name>DVD四区</name>
+<explane>澳大利亚、新西兰、太平洋岛屿、中美洲、墨西哥、南美州和加勒比海地区</explane>
+</code>
+<code id="5">
+<name>DVD五区</name>
+<explane>东欧（前苏联）、印度次大陆、非洲、朝鲜和蒙古</explane>
+</code>
+<code id="6">
+<name>DVD六区</name>
+<explane>中国（除澳门和香港）</explane>
+</code>
+<code id="7">
+<name>DVD七区</name>
+<explane>供将来使用的保留位</explane>
+</code>
+<code id="8">
+<name>DVD八区</name>
+<explane>国际场地：飞机、游船等</explane>
+</code>
+<code id="A">
+<name>蓝光A区</name>
+<explane>北美洲、中美洲、南美洲、日本、中国台湾、朝鲜、韩国、中国香港和东南亚地区</explane>
+</code>
+<code id="B">
+<name>蓝光B区</name>
+<explane>欧洲大部分地区、格陵兰、法国领土、中东地区、非洲、澳大利亚、新西兰和所有大洋洲地区</explane>
+</code>
+<code id="C">
+<name>蓝光C区</name>
+<explane>印度、孟加拉国、尼泊尔、中国、巴基斯坦、俄罗斯、乌克兰、白俄罗斯、中亚和南亚</explane>
+</code>
+</list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="H">
+<name>较高税率</name>
+<explane>高于标准税率</explane>
+</code>
+<code id="R">
+<name>较低税率</name>
+<explane>低于标准税率</explane>
+</code>
+<code id="S">
+<name>标准税率</name>
+<explane> </explane>
+</code>
+<code id="Z">
+<name>零税率</name>
+<explane> </explane>
+</code>
+</list>

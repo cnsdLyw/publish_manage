@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>默认值</explane>
+</code>
+<code id="01">
+<name>出版者直供</name>
+<explane>出版者直接供应零售商</explane>
+</code>
+<code id="02">
+<name>独家发行</name>
+<explane>向零售商供货的独家发行商</explane>
+</code>
+<code id="03">
+<name>非独家发行</name>
+<explane>向零售商供货的非独家发行商</explane>
+</code>
+<code id="04">
+<name>批发</name>
+<explane>向零售网点供货的批发商</explane>
+</code>
+<code id="06">
+<name>发行</name>
+<explane>仅当不明确“独家发行或非独家发行”时使用，尽可能使用02或03</explane>
+</code>
+<code id="07">
+<name>POD 提供</name>
+<explane>向零售商提供按需印刷产品，或从POD的来源直接提供给消费者</explane>
+</code>
+<code id="08">
+<name>零售商</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>出版者直销</name>
+<explane>出版者直接向消费者或机构用户销售 </explane>
+</code>
+<code id="10">
+<name>独家发行直销</name>
+<explane>独家发行商直接向消费者或机构用户销售</explane>
+</code>
+<code id="11">
+<name>非独家发行直销</name>
+<explane>非独家发行商直接向消费者以及/或机构用户销售</explane>
+</code>
+<code id="12">
+<name>发行商直销</name>
+<explane>仅当“独家发行直销或非独家发行直销”不明时使用。尽可能使用10或11</explane>
+</code>
+</list>

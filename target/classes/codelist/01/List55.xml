@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>YYYYMMDD</name>
+<explane>年月日</explane>
+</code>
+<code id="01">
+<name>YYYYMM</name>
+<explane>年和月</explane>
+</code>
+<code id="02">
+<name>YYYYWW</name>
+<explane>年和星期</explane>
+</code>
+<code id="03">
+<name>YYYYQ</name>
+<explane>年和季度(季度＝1、2、 3、4)</explane>
+</code>
+<code id="04">
+<name>YYYYS</name>
+<explane>年和季节 (春=1、夏=2、秋=3,、冬=4)</explane>
+</code>
+<code id="05">
+<name>YYYY</name>
+<explane>年</explane>
+</code>
+<code id="06">
+<name>YYYYMMDDYYYYMMDD</name>
+<explane>年月日－年月日</explane>
+</code>
+<code id="07">
+<name>YYYYMMYYYYMM</name>
+<explane>年和月－年和月</explane>
+</code>
+<code id="08">
+<name>YYYYWWYYYYWW</name>
+<explane>年和星期－年和星期</explane>
+</code>
+<code id="09">
+<name>YYYYQYYYYQ</name>
+<explane>年和季度－年和季度</explane>
+</code>
+<code id="10">
+<name>YYYYSYYYYS</name>
+<explane>年和季节－年和季节</explane>
+</code>
+<code id="11">
+<name>YYYYYYYY</name>
+<explane>年和年</explane>
+</code>
+<code id="12">
+<name>文本字串</name>
+<explane>用于说明复杂和大致日期，或用于说明不确定的日期</explane>
+</code>
+</list>

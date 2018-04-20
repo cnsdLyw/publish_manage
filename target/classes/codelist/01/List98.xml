@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="BLK">
+<name>黑色</name>
+<explane> </explane>
+</code>
+<code id="BLU">
+<name>蓝色</name>
+<explane> </explane>
+</code>
+<code id="BRN">
+<name>棕色</name>
+<explane> </explane>
+</code>
+<code id="BUR">
+<name>暗红色 / 栗色</name>
+<explane> </explane>
+</code>
+<code id="CRE">
+<name>奶油色</name>
+<explane> </explane>
+</code>
+<code id="FCO">
+<name>四色</name>
+<explane> </explane>
+</code>
+<code id="FCS">
+<name>四色和点色</name>
+<explane> </explane>
+</code>
+<code id="GLD">
+<name>金色</name>
+<explane> </explane>
+</code>
+<code id="GRN">
+<name>绿色</name>
+<explane> </explane>
+</code>
+<code id="GRY">
+<name>灰色</name>
+<explane> </explane>
+</code>
+<code id="MUL">
+<name>多色</name>
+<explane> </explane>
+</code>
+<code id="NAV">
+<name>海军蓝色</name>
+<explane> </explane>
+</code>
+<code id="ORG">
+<name>橘黄色</name>
+<explane> </explane>
+</code>
+<code id="PNK">
+<name>粉色</name>
+<explane> </explane>
+</code>
+<code id="PUR">
+<name>紫色</name>
+<explane> </explane>
+</code>
+<code id="RED">
+<name>红色</name>
+<explane> </explane>
+</code>
+<code id="SLV">
+<name>银色</name>
+<explane> </explane>
+</code>
+<code id="TAN">
+<name>茶色</name>
+<explane> </explane>
+</code>
+<code id="WHI">
+<name>白色</name>
+<explane> </explane>
+</code>
+<code id="YEL">
+<name>黄色</name>
+<explane> </explane>
+</code>
+<code id="ZZZ">
+<name>其他颜色</name>
+<explane> </explane>
+</code>
+</list>

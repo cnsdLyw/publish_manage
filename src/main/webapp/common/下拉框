@@ -1,0 +1,21 @@
+<div class="col-md-2">
+	<select class="form-control" title="状态" placeholder="状态" data-rel="tooltip">
+		<option disabled="disabled" selected="selected">状态</option>
+		<option>--全部--</option>
+		<option>已激活</option>
+		<option>未激活</option>
+	</select>
+</div>
+
+
+<div class="col-sm-5">
+											<select class="form-control"  data-rel="tooltip">
+												<option>--请选择负责人--</option>
+												<option>王帅</option>
+												<option>李英文</option>
+												<option>陆剑</option>
+												<option>杨勇</option>
+											</select>
+										</div>
+										
+										

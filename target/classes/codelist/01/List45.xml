@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>出版者</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>合作出版者</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>赞助商</name>
+<explane> </explane>
+</code>
+<code id="04">
+<name>源语言版本出版者</name>
+<explane>翻译作品的源语言版本的出版者</explane>
+</code>
+<code id="05">
+<name>托管或发布者</name>
+<explane>数字内容的托管或发布</explane>
+</code>
+<code id="06">
+<name>出版代理</name>
+<explane>为某某出版或代表某某出版</explane>
+</code>
+<code id="07">
+<name>联合出版者</name>
+<explane>联合或合作出版</explane>
+</code>
+<code id="09">
+<name>新增或收购者</name>
+<explane>产品的所有权从一个出版者转移到另外出版者时使用</explane>
+</code>
+<code id="10">
+<name>出版集团</name>
+<explane>本表中“01出版者”所属的集团。注意：仅当出版者作用代码为01时使用</explane>
+</code>
+<code id="11">
+<name>摹本原件出版者</name>
+<explane>产品摹本原件版的出版者</explane>
+</code>
+<code id="12">
+<name>产品重新包装者</name>
+<explane>改装者（根据用户需要重新装订产品的分销商）为自己定义的专用标识。注意：当版本类型（&lt;EditionType&gt;）元素值为PRB（改装版）时使用，原书的出版者作用应为“出版者”</explane>
+</code>
+<code id="13">
+<name>前出版者</name>
+<explane>一个产品或题名的所有权从一个出版者转移到另一个出版者时使用，对本表中代码“09新增或收购者”的补充说明</explane>
+</code>
+</list>

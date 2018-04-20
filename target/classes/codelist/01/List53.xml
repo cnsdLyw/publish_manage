@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>专用</name>
+<explane>交换双方约定的代码方案</explane>
+</code>
+<code id="02">
+<name>BISAC退货条件代码</name>
+<explane>书业系统咨询委员会提出的退货状态提示码</explane>
+</code>
+</list>

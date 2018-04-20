@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/*验证提示样式控制文本框变红色(支持bootstrap3.0后台框架(21包))*/
+/**
+.has-error input,
+.has-error select,
+.has-error textarea {
+ border-color: #f2a696;
+  color: #d68273;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+*/
+
+p#vtip {position: absolute;padding:3px;left:5px; font-size:0.8em;background-color:white;border:1px solid #a6c9e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index:9999;}
+p#vtip #vtipArrow {position:absolute;top:10px;left:-11px }
+.input {border:1px solid #ccc; padding:3px;margin-right:8px;}
+
+.input_validation-failed {background-color:#fde59c; border:1px solid #FF0000}
+
+.onShow{ background:url(../img/onShow.gif) no-repeat; padding-left:20px; font-size: 12px;line-height:22px;}
+.onCorrect{background:url(../img/onCorrect.gif) no-repeat;padding-left:20px;font-size: 12px;line-height:22px; color:green;}
+.onError{background:url(../img/onError.gif) no-repeat;padding-left:20px;font-size: 12px;line-height:22px; color:red;}
+.onFocus{background:url(../img/onFocus.gif) no-repeat; padding-left:20px; font-size: 12px;line-height:22px; color:#007eed;}

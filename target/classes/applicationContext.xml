@@ -1,0 +1,117 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:context="http://www.springframework.org/schema/context"   
+    xmlns:jdbc="http://www.springframework.org/schema/jdbc"    
+    xmlns:jee="http://www.springframework.org/schema/jee"   
+    xmlns:tx="http://www.springframework.org/schema/tx"  
+    xmlns:jpa="http://www.springframework.org/schema/data/jpa"  
+    xsi:schemaLocation="
+    	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+    	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+    	http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+
+    <!--第一步-->
+    <!--定义服务层代码存放的包扫描路径-->
+	<context:component-scan base-package="com.litc" >
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" /><!-- 过滤controller -->
+	</context:component-scan>
+    <!--第二步-->
+    <!--定义实体的工厂bean-->
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="userPU" />
+        <property name="persistenceXmlLocation" value="classpath:persistence.xml"></property>
+    </bean>
+    
+    <!-- 获取sessionFactory -->
+    <bean id="sessionFactory" factory-bean="entityManagerFactory" factory-method="getSessionFactory" />
+
+	<!-- 延迟加载配置 在web.xml中配置之后，此处不再配置-->
+	<!-- 
+	<bean name="openEntityManagerInViewInterceptor"   
+        class="org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor">  
+        <property name="entityManagerFactory">  
+        	<ref bean="entityManagerFactory" />  
+        </property>  
+    </bean>
+     -->
+       
+    <!--第三步-->
+    <!--定义事务管理器-->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <!--第四步-->
+    <!--定义repository接口的存放目录-->
+    <!--定义接口实现的后缀，通常用Impl-->
+    <!--定义实体工厂的引用-->
+    <!--定义事务管理器的引用-->
+   	<jpa:repositories base-package="com.litc.repository,com.litc.security.repository,com.litc.system.repository,com.litc.fileSystem.repository"
+   					  repository-impl-postfix="Impl" 
+   					  entity-manager-factory-ref="entityManagerFactory" 
+   					  transaction-manager-ref="transactionManager"/>
+
+
+    <!--第五步-->
+    <!--声明采用注解的方式申明事务-->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="false"/>
+    
+    
+	<bean class="com.litc.common.util.thread.ThreadPoolInitBean">
+		<property name="corePoolSize" value="10" />
+		<!-- 最大线程数，默认为Integer.MAX_VALUE -->
+		<property name="maxPoolSize" value="50" />
+		<!-- 队列最大长度，一般需要设置值>=notifyScheduledMainExecutor.maxNum；默认为Integer.MAX_VALUE --> 
+		<property name="queueCapacity" value="20" />
+		<!-- 线程池维护线程所允许的空闲时间，默认为60s -->
+		<property name="keepAliveSeconds" value="300" />
+	</bean>
+
+
+
+
+    <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" />
+
+	<!-- <bean id="testTimer" class="com.litc.common.task.MyTask"/> 
+	  <bean id="dayDataJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+	   <property name="targetObject">   
+	            <ref bean="testTimer"/>
+	      </property>
+	      <property name="targetMethod">  
+	             <value>startRun</value>   
+	     </property>
+	     <property name="concurrent" value="false"/>
+	  </bean>
+	  定时任务  task1
+	 <bean id="ContentOneTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+	  <property name="jobDetail">
+	   <ref bean="dayDataJob"/>
+	  </property>
+	  10秒执行一次
+	  <property name="cronExpression">
+	   <value>0 0 12 * * ?</value>  这里改成每天12点触发
+	  </property>
+	 </bean>
+	 
+	  定时任务  task2
+	 <bean id="ContentTwoTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+	  <property name="jobDetail">
+	   <ref bean="dayDataJob"/>
+	  </property>
+	  10秒执行一次
+	  <property name="cronExpression">
+	   <value>0 0 12 * * ?</value>  这里改成每天12点触发
+	  </property>
+	 </bean>
+	 
+	 启动工作
+	 <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+	  <property name="triggers">
+	   <list>
+	    <ref bean="ContentOneTrigger"/>
+	    <ref bean="ContentTwoTrigger"/>
+	   </list>
+	  </property>
+	 </bean> -->
+</beans>

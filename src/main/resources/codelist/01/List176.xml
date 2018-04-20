@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>Android</name>
+<explane>最初由谷歌开发，并由Open Handset Alliance支持的手持装置的开源操作系统</explane>
+</code>
+<code id="02">
+<name>BlackBerry OS</name>
+<explane>Research In Motion开发的用于自产黑莓手持装置的专用操作系统</explane>
+</code>
+<code id="03">
+<name>iOS</name>
+<explane>由苹果开发的基于Mac OS X的用于苹果iPhone、iPad 和 iPod触摸式手持装置的专用操作系统</explane>
+</code>
+<code id="04">
+<name>Linux</name>
+<explane>基于Linux 内核的操作系统</explane>
+</code>
+<code id="07">
+<name>Palm OS</name>
+<explane>手持装置的专用操作系统，亦称Garnet OS</explane>
+</code>
+<code id="08">
+<name>webOS</name>
+<explane>惠普所有的基于Linux和用于手持装置的操作系统</explane>
+</code>
+<code id="09">
+<name>Symbian</name>
+<explane>手持装置的开源操作系统</explane>
+</code>
+<code id="10">
+<name>Windows</name>
+<explane>微软提供的专用操作系统</explane>
+</code>
+<code id="11">
+<name>Windows CE</name>
+<explane>微软为小型装置开发的专用操作系统，亦称Windows Embedded Compact、WinCE</explane>
+</code>
+<code id="12">
+<name>Windows Mobile</name>
+<explane>微软为移动装置开发的专用操作系统</explane>
+</code>
+<code id="13">
+<name>Mac OS</name>
+<explane>苹果公司用于苹果电脑的专用操作系统</explane>
+</code>
+<code id="14">
+<name>Windows Phone 7</name>
+<explane>微软公司为移动装置开发的专用操作系统，前身是Windows Mobile</explane>
+</code>
+</list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>供应商自编销售分类</name>
+<explane>供应商使用的等级分类方法，用来对产品的预期或实际销售表现进行评估</explane>
+</code>
+<code id="02">
+<name>供应商奖励适当性代码</name>
+<explane>供应商用于评估销售奖励方案是否合适的代码</explane>
+</code>
+</list>

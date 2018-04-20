@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="Y">
+<name>完整产品</name>
+<explane>可退货，但仅限于完整的复本</explane>
+</code>
+<code id="N">
+<name>不可退货</name>
+<explane/>
+</code>
+<code id="C">
+<name>有条件退货</name>
+<explane>向出版者了解退货要求或权限</explane>
+</code>
+<code id="S">
+<name>撕掉封面的退货</name>
+<explane>可退货，但仅限于撕掉封面的复本</explane>
+</code>
+</list>

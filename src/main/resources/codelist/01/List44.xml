@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>专用</name>
+<explane>交换双方约定的代码方案</explane>
+</code>
+<code id="06">
+<name>GLN</name>
+<explane>GS1 全球定位编号，以前为 EAN 定位编号</explane>
+</code>
+<code id="07">
+<name>SAN</name>
+<explane>图书交易标准地址编号</explane>
+</code>
+<code id="16">
+<name>ISNI</name>
+<explane>国际标准名称标识符</explane>
+</code>
+<code id="22">
+<name>中国出版者标识</name>
+<explane>中国新闻出版行政主管部门分配的出版者编号</explane>
+</code>
+</list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>专用</name>
+<explane>交换双方约定的代码方案</explane>
+</code>
+<code id="02">
+<name>ISSN</name>
+<explane>国际标准连续出版物号</explane>
+</code>
+<code id="06">
+<name>DOI</name>
+<explane>数字对象唯一标识</explane>
+</code>
+<code id="22">
+<name>URN</name>
+<explane>统一资源名称</explane>
+</code>
+</list>

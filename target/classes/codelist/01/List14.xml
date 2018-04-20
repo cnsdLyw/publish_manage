@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>默认值</explane>
+</code>
+<code id="01">
+<name>句子大写大小写</name>
+<explane>每个单词的第一个字母大写，专有名词的第一个字母大写</explane>
+</code>
+<code id="02">
+<name>题名大小写</name>
+<explane>题名的第一个字母大写，所有重要单词的第一个字母大写</explane>
+</code>
+<code id="03">
+<name>全部大写</name>
+<explane/>
+</code>
+</list>

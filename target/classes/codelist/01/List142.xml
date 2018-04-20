@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>不明</name>
+<explane>位置不详或未说明</explane>
+</code>
+<code id="01">
+<name>封四</name>
+<explane>书的封底</explane>
+</code>
+<code id="02">
+<name>封三</name>
+<explane>书的封底内页</explane>
+</code>
+<code id="03">
+<name>封二</name>
+<explane>书的封面内页</explane>
+</code>
+<code id="04">
+<name>封一</name>
+<explane>书的封面</explane>
+</code>
+<code id="05">
+<name>书脊</name>
+<explane/>
+</code>
+<code id="06">
+<name>盒子</name>
+<explane>盒装图书的盒子上</explane>
+</code>
+<code id="07">
+<name>标签</name>
+<explane>悬挂标签的产品的标签上</explane>
+</code>
+<code id="08">
+<name>包装底部</name>
+<explane>使用外包装产品的包装底部</explane>
+</code>
+<code id="09">
+<name>包装背面</name>
+<explane>使用外包装产品的包装背面</explane>
+</code>
+<code id="10">
+<name>外封套</name>
+<explane>使用外封套产品的外封套正面或背面</explane>
+</code>
+<code id="11">
+<name>包装薄膜</name>
+<explane>使用收缩性薄膜或其他可去掉薄膜进行包装的产品的薄膜上</explane>
+</code>
+</list>

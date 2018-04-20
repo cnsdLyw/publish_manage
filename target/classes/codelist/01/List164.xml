@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>……的表现形式</name>
+<explane>某产品是（或包括）某作品的表现形式</explane>
+</code>
+<code id="02">
+<name>衍生自……</name>
+<explane>某产品是（或包括）通过ISTC中规定的一种或一种以上的方式从某作品衍生出来的另外一部作品的表现形式。注意：这种关系类型用于说明与产品有关的 “父”作品，而不用准确说明衍生性质</explane>
+</code>
+</list>

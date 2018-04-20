@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>正文页数</name>
+<explane>产品主要内容部分的总页数，包括以下三种情况：&#13;a）主要内容的页码用阿拉伯数字编号时，为最大数字；&#13;b）没有页码（很少有页码）或多重编号时，计算主要内容的页数；&#13;c）有前页或后页，将前页和后页计算在内</explane>
+</code>
+<code id="02">
+<name>字词数</name>
+<explane>自然语言的字数或单词数量</explane>
+</code>
+<code id="03">
+<name>前页页数</name>
+<explane>主要内容之前的总页数。前页一般包括：序、前言、序言等</explane>
+</code>
+<code id="04">
+<name>后页页数</name>
+<explane>主要内容之后的总页数。后页一般包括：后记、附录、尾注、索引等</explane>
+</code>
+<code id="05">
+<name>总页数</name>
+<explane>主页内容页数、前页页数、后页页数之和</explane>
+</code>
+<code id="06">
+<name>生产页数</name>
+<explane>一本书的所有页数，包括未标页码的页面，以及前页和后页等</explane>
+</code>
+<code id="07">
+<name>绝对页数</name>
+<explane>将封面作为第一页显示出的全书总页数。这种页数计算方法一般用于根据固定分页法计算的电子出版物</explane>
+</code>
+<code id="08">
+<name>印刷版的页数</name>
+<explane>没使用固定分页法计算的电子出版物印刷版的页数</explane>
+</code>
+<code id="09">
+<name>时间长度</name>
+<explane>特定篇幅单位中的时间长度</explane>
+</code>
+<code id="10">
+<name>数字产品的概念页数</name>
+<explane>没使用固定分页法计算和没有印刷版的电子出版物的大致页码，用于说明作品的大小</explane>
+</code>
+<code id="22">
+<name>文件尺寸</name>
+<explane>特定篇幅单位中数字文件的大小</explane>
+</code>
+</list>

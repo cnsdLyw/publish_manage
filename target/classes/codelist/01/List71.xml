@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>注意：限制条件应在销售限制说明（&lt;SalesRestrictionNote&gt;）中加以描述</explane>
+</code>
+<code id="01">
+<name>零售商专有或自有品牌</name>
+<explane>仅在指定零售商销售时使用。零售商应在销售网点（&lt;SalesOutlet&gt;）复合元素中界定或说明名称。仅在无法明确选择04或05代码值时使用</explane>
+</code>
+<code id="02">
+<name>机关供应</name>
+<explane>仅用于机关供应批发商销售。零售商和（或）发行商可以在销售网点（&lt;SalesOutlet&gt;）复合元素中界定或说明名称</explane>
+</code>
+<code id="03">
+<name>内部使用</name>
+<explane>仅供出版者内部使用，不上出版目录</explane>
+</code>
+<code id="04">
+<name>独家零售商</name>
+<explane>仅在指定零售商销售时使用，尽管没有使用零售商自己的品牌或商标。零售商应在销售网点（&lt;SalesOutlet&gt;）复合元素中加以界定或说明名称</explane>
+</code>
+<code id="05">
+<name>零售商自有品牌</name>
+<explane>仅在指定零售商通过零售商自己的品牌或商标销售时使用。零售商应在销售限制（&lt;SalesOutlet&gt;）复合元素中加以界定或说明名称</explane>
+</code>
+<code id="06">
+<name>图书馆</name>
+<explane>不通过零售交易，直接向图书馆销售</explane>
+</code>
+<code id="07">
+<name>仅限学校使用版</name>
+<explane>不通过零售交易，直接向学校销售</explane>
+</code>
+<code id="09">
+<name>不对图书馆销售</name>
+<explane>面向消费者、不面向图书馆借阅服务销售的数字产品</explane>
+</code>
+</list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>不明</name>
+<explane>销售权不明或出于某种原因没有加以说明&#13;注意：仅与其他地方销售权类型（&lt;ROWSalesRightsType&gt;）元素一起使用</explane>
+</code>
+<code id="01">
+<name>无限制独家销售</name>
+<explane>在某些国家或区域通过独家销售权进行无限制销售</explane>
+</code>
+<code id="02">
+<name>无限制非独家销售</name>
+<explane>在某些国家或区域通过非独家销售权进行无限制销售</explane>
+</code>
+<code id="03">
+<name>不定原因区域限制</name>
+<explane>未确定原因的在规定的国家或地域内不得销售</explane>
+</code>
+<code id="04">
+<name>出版者区域独家销售</name>
+<explane>在规定的国家内不得销售，但出版者在这些国家或地域中拥有独家权销售</explane>
+</code>
+<code id="05">
+<name>出版者区域非独家销售</name>
+<explane>在规定的国家内不得销售，出版者在这些国家或地域中拥有非独家权销售</explane>
+</code>
+<code id="06">
+<name>出版者原因区域限制</name>
+<explane>在规定的国家内不得销售，因为出版者在这些国家或地域中没有权销售</explane>
+</code>
+<code id="07">
+<name>有限制有独家销售</name>
+<explane>在规定的国家或地域内拥有独家销售权，应用销售限制的情况</explane>
+</code>
+<code id="08">
+<name>有限制无独家销售权</name>
+<explane>在规定的国家或地域内没有独家销售权，应用了销售限制的情况</explane>
+</code>
+</list>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>无</name>
+<explane>无技术保护</explane>
+</code>
+<code id="01">
+<name>DRM</name>
+<explane>数字版权保护技术</explane>
+</code>
+<code id="02">
+<name>数字水印</name>
+<explane>数字水印保护</explane>
+</code>
+<code id="03">
+<name>Adobe DRM</name>
+<explane>Adobe CS4 Content Server Package 或 Adobe ADEPT 托管服务使用的DRM保护</explane>
+</code>
+<code id="04">
+<name>Apple DRM</name>
+<explane>通过苹果专有网店应用的“FairPlay” 数字版权保护</explane>
+</code>
+<code id="05">
+<name>OMA DRM</name>
+<explane>使用了OMA v2 DRM 保护措施，用于保护手机上的内容</explane>
+</code>
+</list>

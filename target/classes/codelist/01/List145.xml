@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>预览</name>
+<explane>购买前的预览</explane>
+</code>
+<code id="02">
+<name>印制</name>
+<explane>纸质印刷的内容摘要</explane>
+</code>
+<code id="03">
+<name>复制 / 粘贴</name>
+<explane>内容摘要的数字复制</explane>
+</code>
+<code id="04">
+<name>共享</name>
+<explane>通过多用户并发装置共享产品</explane>
+</code>
+<code id="05">
+<name>文本朗读</name>
+<explane>通过语音发生功能“朗读”文本</explane>
+</code>
+<code id="06">
+<name>借出</name>
+<explane>可借给拥有其他阅读装置或账户拥有者使用。注意：“借出”状态时，主版本不可用</explane>
+</code>
+</list>

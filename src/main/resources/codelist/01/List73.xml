@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane> </explane>
+</code>
+<code id="01">
+<name>出版者网站</name>
+<explane>参见代码 17 和 18</explane>
+</code>
+<code id="02">
+<name>特定作品出版者网站</name>
+<explane>出版者为某一特定作品（图书、期刊、在线资源或其他出版类型）而推出的信息提供或宣传推广类的网站</explane>
+</code>
+<code id="03">
+<name>在线托管服务网页</name>
+<explane>将在线内容托管服务作为整体访问的网页</explane>
+</code>
+<code id="04">
+<name>期刊主页</name>
+<explane>介绍纸制或电子格式期刊的网页</explane>
+</code>
+<code id="05">
+<name>在线期刊“可供内容”网页</name>
+<explane>可直接在线访问某一特定期刊内容的网页</explane>
+</code>
+<code id="06">
+<name>提供者网站</name>
+<explane>作者或其他提供者介绍自己作品或背景的网站</explane>
+</code>
+<code id="07">
+<name>提供者的出版者网站</name>
+<explane>出版者为特定作者或其他提供者建立的网站</explane>
+</code>
+<code id="08">
+<name>提供者的其他出版者网站</name>
+<explane>由ONIX记录描述外的出版者为特定作者或其他提供者建立的网站</explane>
+</code>
+<code id="09">
+<name>提供者的第三方网站</name>
+<explane>第三方为特定作者或其他提供者建立的网站。如某“粉丝”的网站</explane>
+</code>
+<code id="10">
+<name>特定作品的提供者网站</name>
+<explane>作者或其他提供者为自己的特定作品建立的网站</explane>
+</code>
+<code id="11">
+<name>特定作品的其他出版者网站</name>
+<explane>由ONIX记录描述外的出版者为特定作品建立的网站</explane>
+</code>
+<code id="12">
+<name>特定作品的第三方网站</name>
+<explane>第三方为特定作品建立的网站</explane>
+</code>
+<code id="13">
+<name>系列作品的提供者网站</name>
+<explane>提供者为自己的一组或系列作品建立的网站</explane>
+</code>
+<code id="14">
+<name>系列作品的出版者网站</name>
+<explane>出版者为一组或系列作品建立的网站</explane>
+</code>
+<code id="15">
+<name>系列作品的其他出版者网站</name>
+<explane>由ONIX记录描述外的出版者为一组或系列作品建立的网站</explane>
+</code>
+<code id="16">
+<name>系列作品的第三方网站</name>
+<explane>第三方为一组或系列作品建立的网站</explane>
+</code>
+<code id="17">
+<name>出版者的B2B 网站</name>
+<explane>用代码值01说明出版者面向团体用户的网站</explane>
+</code>
+<code id="18">
+<name>出版者的B2C 网站</name>
+<explane>用代码值01说明出版者面向消费者的网站</explane>
+</code>
+<code id="23">
+<name>作者博客</name>
+<explane> </explane>
+</code>
+<code id="24">
+<name>作者网页</name>
+<explane>作者展示或发表评论的网页</explane>
+</code>
+<code id="25">
+<name>作者专访网页</name>
+<explane> </explane>
+</code>
+<code id="26">
+<name>作者读物网页</name>
+<explane> </explane>
+</code>
+<code id="27">
+<name>封面素材网页</name>
+<explane> </explane>
+</code>
+<code id="28">
+<name>样本内容网页</name>
+<explane> </explane>
+</code>
+<code id="29">
+<name>全部内容网页</name>
+<explane>在发送一个可以提供数字产品下载或在线访问的链接时，在供应细节（&lt;SupplyDetail&gt;）中的网站（&lt;Website&gt;）复合元素中使用</explane>
+</code>
+<code id="30">
+<name>论坛</name>
+<explane> 发表其他评论或讨论的网页</explane>
+</code>
+<code id="31">
+<name>Transfer-URL</name>
+<explane>德国国家图书馆需要直接访问的URL网址</explane>
+</code>
+<code id="32">
+<name>DOI 网站链接</name>
+<explane>German Books in Print (VLB)为DOI注册和ONIX DOI转换所需的链接</explane>
+</code>
+<code id="33">
+<name>供应商的网站</name>
+<explane>非出版者供应商运营的企业网站</explane>
+</code>
+<code id="34">
+<name>供应商的B2B 网站</name>
+<explane>非出版者供应商运营的针对团体客户的企业网站</explane>
+</code>
+<code id="35">
+<name>供应商的 B2C 网站</name>
+<explane>非出版者供应商运营的针对消费者的企业网站</explane>
+</code>
+<code id="36">
+<name>供应商的特定作品网站</name>
+<explane>发行商或其他供应商用于描述某一特定作品的网页</explane>
+</code>
+<code id="37">
+<name>供应商的B2B特定作品网站</name>
+<explane>发行商或其他供应商针对团体客户的描述某一特定作品的网页</explane>
+</code>
+<code id="38">
+<name>供应商的B2C特定作品网站</name>
+<explane>发行商或其他供应商针对消费者的描述某一特定作品的网页</explane>
+</code>
+<code id="39">
+<name>供应商的系列作品网站</name>
+<explane>发行商或其他供应商用于描述一组或系列作品的网页</explane>
+</code>
+</list>

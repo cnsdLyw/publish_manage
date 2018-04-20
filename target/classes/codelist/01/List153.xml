@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>发送方定义</name>
+<explane>发送方定义的文本，仅限于以下情况使用：&#13;a）不用于普遍发行；&#13;b）无法通过其他方法进行编码。&#13;发送一种以上的文本类型时，须在文本内部用标记说明</explane>
+</code>
+<code id="02">
+<name>概述/注解</name>
+<explane>简单的描述或注解，最多不得超过350个字符</explane>
+</code>
+<code id="03">
+<name>描述</name>
+<explane>长度不限</explane>
+</code>
+<code id="04">
+<name>目录</name>
+<explane>用于将目录作为一个单独字段发送</explane>
+</code>
+<code id="05">
+<name>广告描述</name>
+<explane>封皮、封底或盒盖上的广告描述</explane>
+</code>
+<code id="06">
+<name>书评引文</name>
+<explane>产品和作品书评中的引文</explane>
+</code>
+<code id="07">
+<name>书评引文：以前版本</name>
+<explane>作品以前版本书评中的引文</explane>
+</code>
+<code id="08">
+<name>书评引文：以前作品</name>
+<explane>同一作者以前作品或相同系列作品书评中的引文</explane>
+</code>
+<code id="09">
+<name>名人评论</name>
+<explane>名人对新书的评论，并非书评</explane>
+</code>
+<code id="10">
+<name>大字标题</name>
+<explane>用大字标题描述产品的宣传用语</explane>
+</code>
+<code id="11">
+<name>特点介绍</name>
+<explane>出版者为了引人注意而对产品特点进行描述的文字</explane>
+</code>
+<code id="12">
+<name>传记说明</name>
+<explane>产品所有提供者的说明，与单一提供者无关</explane>
+</code>
+<code id="13">
+<name>出版说明</name>
+<explane>出版者有关合同义务的声明。如无卸责声明、赞助商声明、法律通告等。注意：包括此类说明不等于ONIX记录用户有权对其进行复制</explane>
+</code>
+<code id="14">
+<name>节选</name>
+<explane>作品中的一部分节选</explane>
+</code>
+</list>

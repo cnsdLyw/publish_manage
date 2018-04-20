@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>文字作品</name>
+<explane>产品中作为一项内容出版的文字作品，该产品由两个或两个以上的作品组成，如一卷文集中的两本或三本小说 </explane>
+</code>
+<code id="02">
+<name>前页</name>
+<explane>正文之前的文字。如前言、序言等</explane>
+</code>
+<code id="03">
+<name>正文</name>
+<explane>正文中的文字。如正文中的部、章、部分等</explane>
+</code>
+<code id="04">
+<name>后页</name>
+<explane>正文后的文字。如后记、索引等</explane>
+</code>
+<code id="20">
+<name>索引</name>
+<explane> </explane>
+</code>
+</list>

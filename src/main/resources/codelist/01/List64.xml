@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="02">
+<name>未成书</name>
+<explane>尚未出版</explane>
+</code>
+<code id="04">
+<name>成书</name>
+<explane>已出版并仍在发行的产品，并可以接受订货。参见供应细节（&lt;SupplyDetail&gt;）</explane>
+</code>
+
+</list>

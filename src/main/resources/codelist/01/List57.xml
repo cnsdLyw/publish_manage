@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>免费</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>价格有待宣布</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>不单独出售</name>
+<explane> </explane>
+</code>
+<code id="04">
+<name>联系供应商</name>
+<explane>使用情况如下：&#13;1）交换文件采用“广播式”通知，而非一对一地发送给单独的交易伙伴；&#13;2）以订阅方式提供的数字产品；&#13;3）产品价格过于复杂，没有建议零售价的产品</explane>
+</code>
+<code id="05">
+<name>不作为套书出售</name>
+<explane>有套书信息，但不作为套书出售</explane>
+</code>
+</list>

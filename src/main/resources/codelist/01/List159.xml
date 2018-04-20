@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>应用软件</name>
+<explane>包括数据在内的可执行文件</explane>
+</code>
+<code id="02">
+<name>音频</name>
+<explane>录音</explane>
+</code>
+<code id="03">
+<name>图片</name>
+<explane>静态图片</explane>
+</code>
+<code id="04">
+<name>文本</name>
+<explane>包括图片的文本</explane>
+</code>
+<code id="05">
+<name>视频</name>
+<explane>动态画面</explane>
+</code>
+<code id="06">
+<name>多模式</name>
+<explane>通过各种模式发送内容的网站或其他支持资源</explane>
+</code>
+</list>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>未说明出版状态,不同于出版状态未知。默认值</explane>
+</code>
+<code id="01">
+<name>取消</name>
+<explane>发出过产品预告，后因故中止出版</explane>
+</code>
+<code id="02">
+<name>即将出版</name>
+<explane/>
+</code>
+<code id="03">
+<name>无限推迟</name>
+<explane>发出过产品预告，后因故推迟出版，并且没有预计出版日期</explane>
+</code>
+<code id="04">
+<name>活动状态</name>
+<explane>已出版并仍在发行的产品，并可以接受订货。参见供应细节（&lt;SupplyDetail&gt;）</explane>
+</code>
+<code id="05">
+<name>已无所有权的产品</name>
+<explane>该市场内的产品责任已转移</explane>
+</code>
+<code id="06">
+<name>无限期脱销</name>
+<explane>产品处于活动状态，但不能供货。包括：&#13;a）尽管供应链上的某处依然有库存，但出版者无法按订单供货；&#13;b）目前没有重新纳入自己库存的计划。用该于说明“考虑再版”的情况；&#13;c）本代码不说明是否接受退货</explane>
+</code>
+<code id="07">
+<name>绝版</name>
+<explane>产品曾处于活动状态，但目前在以下两种情况下永远处于非活动状态：&#13;a）供应链上的某处依然有库存，但出版者不再接受订货；&#13;b）该产品不会再以相同的ISBN重新提供。&#13;本代码的使用一般不说明出版者拒绝接受退货的起始日期</explane>
+</code>
+<code id="08">
+<name>非活动状态</name>
+<explane>产品曾处于活动状态，尽管供应链上的某处依然有库存，但现在永远或无限期处于非活动状态，出版者不再接受订货。&#13;本代码涵盖了代码06和07，用于不需要对06和07进行区分时使用</explane>
+</code>
+<code id="09">
+<name>未知</name>
+<explane>发送方不知道该市场当前的出版状态</explane>
+</code>
+<code id="10">
+<name>滞销</name>
+<explane/>
+</code>
+<code id="11">
+<name>停售</name>
+<explane>由于法律或违规等原因收回的产品</explane>
+</code>
+<code id="12">
+<name>该市场不可供</name>
+<explane>由于没有销售权或其他原因，出版者不再向某一市场上投放产品</explane>
+</code>
+<code id="13">
+<name>不单独销售的活动状态</name>
+<explane>出版者确定的仅能以套装形式或作为套装的一部分在某一市场上销售的产品</explane>
+</code>
+<code id="14">
+<name>有市场限制的活动状态</name>
+<explane>不向所有类型的客户提供。如该市场被独家销售商根据不同市场分开。注意：需要使用P.24中的销售限制（&lt;SalesRestriction&gt;）复合元素</explane>
+</code>
+<code id="15">
+<name>召回</name>
+<explane>因消费者安全问题从市场召回。</explane>
+</code>
+</list>

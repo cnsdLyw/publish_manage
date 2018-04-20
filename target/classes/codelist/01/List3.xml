@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane/>
+</code>
+<code id="01">
+<name>出版者</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>出版者的发行商</name>
+<explane>出版者指定的可为出版者提供仓储并履行发行责任的机构&#13;注：不同于批发商</explane>
+</code>
+<code id="03">
+<name>批发商</name>
+<explane> </explane>
+</code>
+<code id="04">
+<name>书目机构</name>
+<explane/>
+</code>
+<code id="05">
+<name>图书馆图书供应商</name>
+<explane> </explane>
+</code>
+<code id="06">
+<name>出版者的代销商</name>
+<explane>负责在某一区域为出版者的产品进行营销推广的销售代理&#13;注：不同于发行商，发行商只负责订货，不负责营销推广</explane>
+</code>
+<code id="09">
+<name>国际标准书号（ISBN）注册机构</name>
+<explane/>
+</code>
+<code id="10">
+<name>国际标准文本编码 （ISTC）注册机构</name>
+<explane/>
+</code>
+</list>

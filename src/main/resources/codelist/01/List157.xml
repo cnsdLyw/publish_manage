@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>印刷介质</name>
+<explane/>
+</code>
+<code id="02">
+<name>网站</name>
+<explane/>
+</code>
+<code id="03">
+<name>广播</name>
+<explane/>
+</code>
+<code id="04">
+<name>电视</name>
+<explane/>
+</code>
+</list>

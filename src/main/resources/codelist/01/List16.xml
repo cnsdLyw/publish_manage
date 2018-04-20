@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>专用</name>
+<explane>交换双方约定的代码方案</explane>
+</code>
+<code id="02">
+<name>ISBN-10</name>
+<explane>2007年以前使用的10位国际标准书号</explane>
+</code>
+<code id="06">
+<name>DOI</name>
+<explane>数字对象唯一标识</explane>
+</code>
+<code id="11">
+<name>ISTC</name>
+<explane>国际标准文本编码</explane>
+</code>
+<code id="15">
+<name>ISBN-13</name>
+<explane>2007年启用的13位国际标准书号</explane>
+</code>
+<code id="18">
+<name>ISRC</name>
+<explane>国际标准录音制品代码</explane>
+</code>
+</list>

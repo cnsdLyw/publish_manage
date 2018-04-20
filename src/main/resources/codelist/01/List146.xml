@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>无限许可</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>有限许可</name>
+<explane>应在数字产品使用限度（&lt;EpubUsageLimit&gt;）中说明限制情况</explane>
+</code>
+<code id="03">
+<name>禁止使用</name>
+<explane> </explane>
+</code>
+</list>

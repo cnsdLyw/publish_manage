@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>鸣谢</name>
+<explane>需要鸣谢的所使用的资源</explane>
+</code>
+<code id="02">
+<name>文字说明</name>
+<explane>伴随资源一起出现的解释性文字。如照片的拍摄者</explane>
+</code>
+<code id="03">
+<name>版权拥有者</name>
+<explane>资源的版权拥有者</explane>
+</code>
+<code id="04">
+<name>以分钟计算的长度</name>
+<explane>音频或视频资源中以分钟计算的大致长度</explane>
+</code>
+</list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="02">
+<name>专用折扣代码</name>
+<explane>出版者或供应商自编代码，用于说明交易的折扣种类，实际折扣取决于交易方之间的协议</explane>
+</code>
+<code id="05">
+<name>专用佣金代码</name>
+<explane>出版者或供应商自编的代码，用于说明佣金比率的种类。实际佣金比率取决于交易方之间的协议</explane>
+</code>
+</list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>专用</name>
+<explane>交换双方约定的代码方案</explane>
+</code>
+<code id="06">
+<name>DOI</name>
+<explane>数字对象唯一标识</explane>
+</code>
+</list>

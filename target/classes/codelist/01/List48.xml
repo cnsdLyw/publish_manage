@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>高度</name>
+<explane>产品或包装产品外观的高度。注意：&#13;a）图书：直立在书架上的书脊高度；&#13;b）折叠地图：折叠之后的高度；&#13;c）包装产品：产品包装物的高度；&#13;d）卷起来存放的单张产品：卷起后圆管或圆筒的长度；&#13;e）卷轴包装产品：三角形截面和矩形截面卷轴包装的长度</explane>
+</code>
+<code id="02">
+<name>宽度</name>
+<explane>产品或包装产品外观的宽度。注意：&#13;a）图书：直立在书架上的封面水平宽度；&#13;b）折叠地图：折叠之后的宽度；&#13;c）包装产品：产品包装物的宽度</explane>
+</code>
+<code id="03">
+<name>厚度</name>
+<explane>产品或包装产品外观的厚度。注意：&#13;a）图书：书脊的厚度；&#13;b）折叠地图：折叠之后的厚度；&#13;c）包装产品：产品包装物的厚度</explane>
+</code>
+<code id="08">
+<name>单位重量</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>球形直径</name>
+<explane>球型产品的直径。如地球仪</explane>
+</code>
+<code id="10">
+<name>单张高度</name>
+<explane>折叠或卷轴单张地图或海报打开时的高度</explane>
+</code>
+<code id="11">
+<name>单张宽度</name>
+<explane>折叠或卷轴单张地图或海报打开时的宽度</explane>
+</code>
+<code id="12">
+<name>管或筒直径</name>
+<explane>卷起来存放的单张产品的圆管或圆筒截面的直径</explane>
+</code>
+<code id="13">
+<name>卷轴包装单边尺寸</name>
+<explane>卷轴包装产品的单边边长。如三角形截面和矩形截面的长包装</explane>
+</code>
+</list>

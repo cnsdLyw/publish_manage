@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="14">
+<name>从……日期开始</name>
+<explane>价格从某日期开始生效</explane>
+</code>
+<code id="15">
+<name>到……日期结束</name>
+<explane>价格到某日期停止生效</explane>
+</code>
+</list>

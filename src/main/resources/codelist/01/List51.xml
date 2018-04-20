@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>产品（&lt;Product&gt;）和相关产品（&lt;RelatedProduct&gt;）之间的关系在某种程度上无法通过另一代码值加以说明</explane>
+</code>
+<code id="01">
+<name>包括</name>
+<explane>产品（&lt;Product&gt;） 中包括相关产品（&lt;RelatedProduct&gt;）</explane>
+</code>
+<code id="02">
+<name>一部分</name>
+<explane>产品（&lt;Product&gt;） 是相关产品（&lt;RelatedProduct&gt;）中的一部分： 用于 “还可作为……的一部分可供”</explane>
+</code>
+<code id="03">
+<name>代替</name>
+<explane>产品记录（&lt;Product&gt;）代替了相关产品（&lt;RelatedProduct&gt;），或产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;）的新版</explane>
+</code>
+<code id="05">
+<name>被……代替</name>
+<explane>产品（&lt;Product&gt;） 被相关产品（&lt;RelatedProduct&gt;）代替，或有了新版</explane>
+</code>
+<code id="06">
+<name>可选形式</name>
+<explane>说明产品（&lt;Product&gt;）有内容相同其他可选的产品形式</explane>
+</code>
+<code id="07">
+<name>具有附属产品</name>
+<explane>产品（&lt;Product&gt;）有相关产品（&lt;RelatedProduct&gt;）的附属产品或补充产品</explane>
+</code>
+<code id="08">
+<name>是……的附属产品</name>
+<explane>产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;）的附属或补充产品</explane>
+</code>
+<code id="09">
+<name>作为……的滞销品</name>
+<explane>产品（&lt;Product&gt;）以相关产品（&lt;RelatedProduct&gt;）成为滞销品，当滞销品给自己分配产品标识时使用</explane>
+</code>
+<code id="10">
+<name>是 ……滞销品</name>
+<explane>产品（&lt;Product&gt;）起初作为相关产品（&lt;RelatedProduct&gt;）销售，说明出版者为某一题名所用的原始标识，后来在另外的标识下作为滞销品提供</explane>
+</code>
+<code id="11">
+<name>是另一语言的版本</name>
+<explane>产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;）另一语言的版本</explane>
+</code>
+<code id="12">
+<name>出版者建议并列</name>
+<explane>产品（&lt;Product&gt;）是出版者建议的并列相关产品（&lt;RelatedProduct&gt;），但并不具有相同内容（参见本表中的05 和 06） </explane>
+</code>
+<code id="13">
+<name>基于……印刷产品的数字产品</name>
+<explane>产品（&lt;Product&gt;）是基于印刷版的数字相关产品（&lt;RelatedProduct&gt;）</explane>
+</code>
+<code id="16">
+<name>用POD代替……&#13;</name>
+<explane>产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;）的POD代替品。相关产品（&lt;RelatedProduct&gt;）是一种已绝版的产品，因此用新的ISBN书号出版按需印刷版，以代替相关产品（&lt;RelatedProduct&gt;）</explane>
+</code>
+<code id="17">
+<name>被POD代替</name>
+<explane>产品（&lt;Product&gt;） 被相关产品（&lt;RelatedProduct&gt;） POD版所代替。相关产品（&lt;RelatedProduct&gt; ）是一种按需印刷版，以新的ISBN书号出版，代替已绝版的产品（&lt;Product&gt;） </explane>
+</code>
+<code id="18">
+<name>是……的特别版</name>
+<explane>产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;）的特别版。用于采用不同封面和不同装订方式等不同于并列格式的特殊版，可在有限的时间以有限的数量提供</explane>
+</code>
+<code id="19">
+<name>有特别版</name>
+<explane>产品（&lt;Product&gt;）有特别版的相关产品（&lt;RelatedProduct&gt;）：与本表中的代码18相反</explane>
+</code>
+<code id="20">
+<name>是……的改装版</name>
+<explane>产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;）改装版，即：分销商根据用户需要重新装订的版本</explane>
+</code>
+<code id="21">
+<name>是……改装版的原版</name>
+<explane>产品（&lt;Product&gt;）是相关产品（&lt;RelatedProduct&gt;） 改装版的原版</explane>
+</code>
+<code id="22">
+<name>相同作者的产品</name>
+<explane>产品（&lt;Product&gt;） 和相关产品（&lt;RelatedProduct&gt;）有同一作者</explane>
+</code>
+<code id="23">
+<name>类似作品</name>
+<explane>相关产品（&lt;RelatedProduct&gt;）是一部和产品（&lt;Product&gt;）类似的作品，用于读者可能喜欢的同类产品</explane>
+</code>
+<code id="24">
+<name>是……的摹真本版</name>
+<explane>产品(&lt;Product&gt;)是相关产品（&lt;RelatedProduct&gt;）的摹真本版</explane>
+</code>
+<code id="25">
+<name>是……摹真本的原版</name>
+<explane>产品(&lt;Product&gt;)是相关产品（&lt;RelatedProduct&gt;）摹真本的原版</explane>
+</code>
+<code id="26">
+<name>许可</name>
+<explane>产品(&lt;Product&gt;) 数字版相关产品（ &lt;RelatedProduct&gt;的许可，分别交易或提供</explane>
+</code>
+<code id="27">
+<name>可供的数字版本</name>
+<explane>相关产品（&lt;RelatedProduct&gt;）是印刷版产品(&lt;Product&gt;)的数字版本：与本表中的代码13相反</explane>
+</code>
+</list>

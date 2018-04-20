@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane> </explane>
+</code>
+<code id="01">
+<name>笔名</name>
+<explane/>
+</code>
+<code id="02">
+<name>法定名称</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>曾用名</name>
+<explane> </explane>
+</code>
+<code id="04">
+<name>真实姓名</name>
+<explane/>
+</code>
+</list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>包括更新内容</name>
+<explane>表示以该价格购买时包括特定的更新内容</explane>
+</code>
+<code id="02">
+<name>不包括更新内容</name>
+<explane>表示用该价格购买时，需要同时购买此价格不包括的更新内容</explane>
+</code>
+<code id="03">
+<name>更新可供</name>
+<explane>可单独购买更新内容，无其他附加条件</explane>
+</code>
+</list>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>ASCII 格式</name>
+<explane>不赞成使用：建议在合适的情况下使用代码06 或 07 </explane>
+</code>
+<code id="01">
+<name>SGML格式</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>HTML格式</name>
+<explane>不同于XHTML格式</explane>
+</code>
+<code id="03">
+<name>XML格式</name>
+<explane>不同于XHTML格式</explane>
+</code>
+<code id="04">
+<name>PDF格式</name>
+<explane>不赞成使用： 以前曾经同时分配给PDF 和 XHTML</explane>
+</code>
+<code id="05">
+<name>XHTML格式</name>
+<explane> </explane>
+</code>
+<code id="06">
+<name>默认的文本格式</name>
+<explane>XML默认UTF-8 或 UTF-16</explane>
+</code>
+<code id="07">
+<name>基本 ASCII 格式</name>
+<explane>由编码32～126之间的UTF-8 字符集组成的纯文本</explane>
+</code>
+<code id="08">
+<name>PDF格式</name>
+<explane>代替文本格式&lt;TextFormat&gt;元素的04代码，但仍可作为文本格式的属性使用</explane>
+</code>
+<code id="09">
+<name>RTF格式</name>
+<explane> Microsoft rich 文本</explane>
+</code>
+<code id="10">
+<name>DOC格式</name>
+<explane> Microsoft Word文本</explane>
+</code>
+<code id="11">
+<name>ECMA376 processingML格式</name>
+<explane>Office Open XML 文件格式 / OOXML / DOCX</explane>
+</code>
+<code id="12">
+<name>ISO 26300 ODF格式</name>
+<explane>ISO 开放文件格式</explane>
+</code>
+<code id="13">
+<name>DOC格式</name>
+<explane> Corel Wordperfec文本</explane>
+</code>
+<code id="14">
+<name>EPUB格式</name>
+<explane>文件名后缀为“ .epub”</explane>
+</code>
+</list>

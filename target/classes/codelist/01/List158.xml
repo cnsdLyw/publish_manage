@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>封面</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>封底</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>书皮 / 包装</name>
+<explane>包括封面和封底</explane>
+</code>
+<code id="04">
+<name>提供者相片</name>
+<explane>提供者的照片或肖像</explane>
+</code>
+<code id="05">
+<name>连环画 / 美术作品</name>
+<explane> </explane>
+</code>
+<code id="06">
+<name>系列出版物标识</name>
+<explane> </explane>
+</code>
+<code id="07">
+<name>产品图片 / 美术作品</name>
+<explane> </explane>
+</code>
+<code id="08">
+<name>产品标识</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>出版者标识</name>
+<explane> </explane>
+</code>
+<code id="10">
+<name>版权页标识</name>
+<explane> </explane>
+</code>
+<code id="11">
+<name>提供者采访</name>
+<explane> </explane>
+</code>
+<code id="12">
+<name>提供者演示</name>
+<explane>提供者的演示和（或）解说词</explane>
+</code>
+<code id="13">
+<name>提供者读物</name>
+<explane> </explane>
+</code>
+<code id="14">
+<name>提供者事件安排</name>
+<explane>以日历格式出现的计划时间表的链接</explane>
+</code>
+<code id="15">
+<name>样本内容</name>
+<explane>如一章的正文、页面图片、屏幕截图</explane>
+</code>
+<code id="16">
+<name>小窗</name>
+<explane>可嵌入的应用程序，用于展示“内视”影片</explane>
+</code>
+<code id="17">
+<name>书评</name>
+<explane>使用说明：&#13;a）用文本项（&lt;TextContent&gt;）复合元素说明ONIX记录中的书评引文；&#13;b）用引用内容（&lt;CitedContent&gt;）复合元素说明ONIX记录引用的第三方书评；&#13;c）用支持资源链接（&lt;SupportingResource&gt;）复合元素说明仅作为产品促销材料而复制的书评</explane>
+</code>
+<code id="18">
+<name>其他评论 / 讨论</name>
+<explane> </explane>
+</code>
+<code id="19">
+<name>读书小组指南</name>
+<explane> </explane>
+</code>
+<code id="20">
+<name>教师手册</name>
+<explane> </explane>
+</code>
+<code id="21">
+<name>专题文章</name>
+<explane>出版者提供的特稿</explane>
+</code>
+<code id="22">
+<name>人物“访谈”</name>
+<explane>虚构人物“访谈”</explane>
+</code>
+<code id="23">
+<name>壁纸 / 屏幕保护</name>
+<explane> </explane>
+</code>
+<code id="24">
+<name>新闻发布稿</name>
+<explane> </explane>
+</code>
+<code id="25">
+<name>目录</name>
+<explane>指网页上的目录，不是ONIX记录中的目录</explane>
+</code>
+<code id="26">
+<name>宣传片</name>
+<explane>与电影预告片类似的营销宣传录像，也称为图书推介片</explane>
+</code>
+<code id="28">
+<name>电子社</name>
+<explane>配套电子书</explane>
+</code>
+</list>

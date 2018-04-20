@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>DDC</name>
+<explane>杜威十进制分类法</explane>
+</code>
+<code id="02">
+<name>DDC简版</name>
+<explane>杜威十进制分类法简版</explane>
+</code>
+<code id="09">
+<name>UDC</name>
+<explane>国际十进制分类法</explane>
+</code>
+<code id="17">
+<name>阅读水平和特殊兴趣限定标识</name>
+<explane> </explane>
+</code>
+<code id="20">
+<name>关键词</name>
+<explane>用于在主题表标目文本（&lt;SubjectHeadingText&gt;）元素中发送多个关键词或关键词组。建议词间用分号分隔</explane>
+</code>
+<code id="23">
+<name>出版者分类编码</name>
+<explane> 出版者内部使用的分类编码</explane>
+</code>
+<code id="24">
+<name>专用主题</name>
+<explane>非标准的专用方案</explane>
+</code>
+<code id="88">
+<name>中国图书馆分类法</name>
+<explane/>
+</code>
+<code id="89">
+<name>中国图书、音像制品、电子出版物营销分类</name>
+<explane>中国出版物发行标准技术委员会制定的行业标准</explane>
+</code>
+</list>

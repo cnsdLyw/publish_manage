@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="A01">
+<name>作者</name>
+<explane/>
+</code>
+<code id="A02">
+<name>合作者</name>
+<explane/>
+</code>
+<code id="A03">
+<name>编剧</name>
+<explane>剧本的作者</explane>
+</code>
+<code id="A04">
+<name>词作者</name>
+<explane/>
+</code>
+<code id="A06">
+<name>曲作者</name>
+<explane>音乐的作曲者</explane>
+</code>
+<code id="A07">
+<name>绘画者</name>
+<explane>含插图的作者</explane>
+</code>
+<code id="A08">
+<name>摄影者</name>
+<explane/>
+</code>
+<code id="A09">
+<name>创作者</name>
+<explane>原创作者</explane>
+</code>
+<code id="A10">
+<name>创意者</name>
+<explane>作品策划者</explane>
+</code>
+<code id="A11">
+<name>设计者</name>
+<explane>装帧或封面的设计者</explane>
+</code>
+<code id="A14">
+<name>文字撰写者</name>
+<explane>影集或画集中的文字撰写者，或绘画小说或漫画中的文字撰写者</explane>
+</code>
+<code id="A15">
+<name>绪言作者</name>
+<explane/>
+</code>
+<code id="A16">
+<name>序作者</name>
+<explane/>
+</code>
+<code id="A17">
+<name>摘要作者</name>
+<explane/>
+</code>
+<code id="A19">
+<name>后记作者</name>
+<explane/>
+</code>
+<code id="A20">
+<name>注释者</name>
+<explane>注释、说明和脚注的作者</explane>
+</code>
+<code id="A21">
+<name>评论作者</name>
+<explane>正文评论的作者</explane>
+</code>
+<code id="A22">
+<name>结语作者</name>
+<explane>结语的作者</explane>
+</code>
+<code id="A23">
+<name>前言作者</name>
+<explane>前言的作者</explane>
+</code>
+<code id="A24">
+<name>导论作者</name>
+<explane>导论的作者</explane>
+</code>
+<code id="A26">
+<name>作者的小传作者</name>
+<explane>正文作者小传的撰写者</explane>
+</code>
+<code id="A27">
+<name>实验者</name>
+<explane>文中提到的实验的实验者</explane>
+</code>
+<code id="A30">
+<name>软件编写者</name>
+<explane>文中所附计算机程序的编写者</explane>
+</code>
+<code id="A33">
+<name>附录作者</name>
+<explane>附录的作者</explane>
+</code>
+<code id="A34">
+<name>索引作者</name>
+<explane>索引的编制者</explane>
+</code>
+<code id="A39">
+<name>地图绘制者</name>
+<explane>地图绘制或提供者</explane>
+</code>
+<code id="A42">
+<name>续写者</name>
+<explane>当一部正规作品由别人，而不是原作者，续写完成实施使用</explane>
+</code>
+<code id="A43">
+<name>采访人</name>
+<explane>以记录方式采写作品的记录者</explane>
+</code>
+<code id="A44">
+<name>受访者</name>
+<explane>接受采访的对象</explane>
+</code>
+<code id="A99">
+<name>其他主要创作者</name>
+<explane>以上没有提到的其他主要创作者</explane>
+</code>
+<code id="B01">
+<name>编者</name>
+<explane/>
+</code>
+<code id="B02">
+<name>修订者</name>
+<explane/>
+</code>
+<code id="B04">
+<name>删节者</name>
+<explane/>
+</code>
+<code id="B05">
+<name>改写者</name>
+<explane/>
+</code>
+<code id="B06">
+<name>翻译者</name>
+<explane/>
+</code>
+<code id="B07">
+<name>口述者</name>
+<explane/>
+</code>
+<code id="B10">
+<name>编译者</name>
+<explane> </explane>
+</code>
+<code id="B11">
+<name>主编</name>
+<explane> </explane>
+</code>
+<code id="B13">
+<name>分卷编辑</name>
+<explane> </explane>
+</code>
+<code id="B14">
+<name>编委会成员</name>
+<explane> </explane>
+</code>
+<code id="B15">
+<name>合作编辑</name>
+<explane> </explane>
+</code>
+<code id="B16">
+<name>责任编辑</name>
+<explane> </explane>
+</code>
+<code id="B20">
+<name>顾问编辑</name>
+<explane> </explane>
+</code>
+<code id="B21">
+<name>总编辑</name>
+<explane> </explane>
+</code>
+<code id="D01">
+<name>制片人</name>
+<explane> </explane>
+</code>
+<code id="D02">
+<name>导演</name>
+<explane> </explane>
+</code>
+<code id="D03">
+<name>指挥</name>
+<explane/>
+</code>
+<code id="D99">
+<name>其他类型指导</name>
+<explane>不属于上述范围的其他方面的指导者</explane>
+</code>
+<code id="E03">
+<name>解说</name>
+<explane> </explane>
+</code>
+<code id="E04">
+<name>评论员</name>
+<explane> </explane>
+</code>
+<code id="E05">
+<name>独唱者</name>
+<explane/>
+</code>
+<code id="E06">
+<name>器乐独奏者</name>
+<explane> </explane>
+</code>
+<code id="E07">
+<name>朗读者</name>
+<explane>录音文本的朗读者，如有声读物</explane>
+</code>
+<code id="E08">
+<name>演出团体</name>
+<explane>演出的音乐团体的名称，如管线乐团、管乐团、合唱团等</explane>
+</code>
+<code id="E99">
+<name>表演者</name>
+<explane/>
+</code>
+<code id="F01">
+<name>摄制者</name>
+<explane> </explane>
+</code>
+<code id="F99">
+<name>其他录音者</name>
+<explane/>
+</code>
+<code id="Z01">
+<name>协助者</name>
+<explane>与提供者有关的协助者</explane>
+</code>
+<code id="Z99">
+<name>其他人员</name>
+<explane/>
+</code>
+</list>

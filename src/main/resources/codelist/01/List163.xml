@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>出版日期</name>
+<explane>名义出版日期</explane>
+</code>
+<code id="02">
+<name>禁售日期</name>
+<explane>此日期之前禁止零售，此日期之后可以零售</explane>
+</code>
+<code id="09">
+<name>新品发布日期</name>
+<explane>新产品对外宣布的日期</explane>
+</code>
+<code id="10">
+<name>新品交易日期</name>
+<explane>仅用于宣布新产品的交易日期</explane>
+</code>
+<code id="11">
+<name>首次出版日期</name>
+<explane>以产品形式第一次出版的日期</explane>
+</code>
+<code id="12">
+<name>最后重版日期</name>
+<explane>产品最后一次重版的日期</explane>
+</code>
+<code id="13">
+<name>绝版 / 删除日期</name>
+<explane>宣布产品绝版或删除的日期</explane>
+</code>
+<code id="16">
+<name>最新再版日期</name>
+<explane>产品最后一次再版的日期</explane>
+</code>
+<code id="19">
+<name>印刷版出版日期</name>
+<explane>电子版产品以印刷形式出版的日期</explane>
+</code>
+</list>

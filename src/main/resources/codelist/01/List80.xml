@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>封套</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>吸塑包装</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>储物盒</name>
+<explane> </explane>
+</code>
+<code id="05">
+<name>光盘盒</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>箱、盒</name>
+<explane>产品的包装箱或包装盒，不同于“盒装套书”</explane>
+</code>
+<code id="11">
+<name>翻盖盒套装</name>
+<explane>用于多卷套书的翻盖盒</explane>
+</code>
+<code id="12">
+<name>圆筒</name>
+<explane>产品卷放的圆筒。如单张地图或海报</explane>
+</code>
+<code id="13">
+<name>夹子</name>
+<explane>放置各种幻灯片、缩微胶片的夹子</explane>
+</code>
+<code id="14">
+<name>皮夹或文件夹</name>
+<explane>放置各种幻灯片、缩微胶片的皮夹或文件夹</explane>
+</code>
+<code id="15">
+<name>长条三角形包装</name>
+<explane>三角形截面的长包装，用于存放卷起来的地图或海报等</explane>
+</code>
+<code id="16">
+<name>长条正方形包装</name>
+<explane>正方形截面的长包装，用于存放卷起来的地图或海报等</explane>
+</code>
+<code id="17">
+<name>DVD软袋</name>
+<explane>存放DVD的软袋</explane>
+</code>
+<code id="18">
+<name>提袋</name>
+<explane/>
+</code>
+<code id="19">
+<name>硬质塑料盒</name>
+<explane/>
+</code>
+<code id="20">
+<name>硬纸盒</name>
+<explane/>
+</code>
+<code id="21">
+<name>收缩性塑料薄膜</name>
+<explane/>
+</code>
+<code id="22">
+<name>硬泡沫塑料包装</name>
+<explane>包装中包含预成型塑料泡沫和带热封口的印制卡片</explane>
+</code>
+<code id="23">
+<name>手提箱</name>
+<explane/>
+</code>
+</list>

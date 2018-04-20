@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>有声读物</name>
+<explane>产品的朗读录音</explane>
+</code>
+<code id="02">
+<name>演出对白</name>
+<explane>戏剧录音或其他演出的对白</explane>
+</code>
+<code id="03">
+<name>音乐录音</name>
+<explane>音乐剧和音乐会的录音</explane>
+</code>
+<code id="04">
+<name>其他音频</name>
+<explane>其他声音的录音。如鸟鸣</explane>
+</code>
+<code id="05">
+<name>游戏</name>
+<explane> </explane>
+</code>
+<code id="06">
+<name>动态画面</name>
+<explane>电影、录像等</explane>
+</code>
+<code id="07">
+<name>静态画面和图形</name>
+<explane> </explane>
+</code>
+<code id="08">
+<name>软件</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>数据</name>
+<explane>数据文件</explane>
+</code>
+<code id="10">
+<name>可视文本</name>
+<explane>使用本代码值，结合相应的产品形式（&lt;ProductForm&gt;）和产品形式细节（&lt;ProductFormDetail&gt;） 的代码值一起使用，以说明电子图书或其他数字产品的主要内容为可视文本</explane>
+</code>
+<code id="11">
+<name>乐谱</name>
+<explane> </explane>
+</code>
+<code id="12">
+<name>地图</name>
+<explane>地图和 （或）其他图形内容</explane>
+</code>
+<code id="13">
+<name>谈话</name>
+<explane>既不是读物、也不是演出的访谈内容</explane>
+</code>
+</list>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>出版日期</name>
+<explane/>
+</code>
+<code id="04">
+<name>广播日期</name>
+<explane>电视或电台的开播日期</explane>
+</code>
+<code id="14">
+<name>从某日期开始</name>
+<explane>内容项或支持资源从某一日期开始可以引用或使用</explane>
+</code>
+<code id="15">
+<name>某日期之前</name>
+<explane>内容项或支持资源从某一日期之前可以引用或使用</explane>
+</code>
+<code id="17">
+<name>最新更新</name>
+<explane>资源最后更新的日期</explane>
+</code>
+</list>

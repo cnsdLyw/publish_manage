@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>正文语种</name>
+<explane/>
+</code>
+<code id="02">
+<name>译文的原文语种</name>
+<explane>译文产品的原文语种</explane>
+</code>
+<code id="03">
+<name>摘要语种</name>
+<explane>摘要和正文语种不同时使用。主要用于连续出版物</explane>
+</code>
+<code id="04">
+<name>版权语种</name>
+<explane>版权规定适用的语种</explane>
+</code>
+<code id="05">
+<name>版权以外的语种</name>
+<explane>版权规定不适用的语种</explane>
+</code>
+<code id="06">
+<name>多语版的原文语种</name>
+<explane>原文语种的正文是双语或多语版本中的一部分</explane>
+</code>
+<code id="07">
+<name>多语版的译文语种</name>
+<explane>译文语种的正文是双语或多语版本中的一部分</explane>
+</code>
+<code id="08">
+<name>音轨语言</name>
+<explane>音轨上的语言。如DVD上的音轨语言</explane>
+</code>
+<code id="09">
+<name>字幕语言</name>
+<explane>字幕上的语言。如DVD上的字幕语言</explane>
+</code>
+</list>

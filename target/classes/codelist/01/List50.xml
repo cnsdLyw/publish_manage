@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="cm">
+<name>厘米</name>
+<explane> </explane>
+</code>
+<code id="gr">
+<name>克</name>
+<explane> </explane>
+</code>
+<code id="in">
+<name>英寸</name>
+<explane> </explane>
+</code>
+<code id="kg">
+<name>千克</name>
+<explane> </explane>
+</code>
+<code id="lb">
+<name>磅</name>
+<explane> </explane>
+</code>
+<code id="mm">
+<name>毫米</name>
+<explane> </explane>
+</code>
+<code id="oz">
+<name>盎司</name>
+<explane> </explane>
+</code>
+<code id="px">
+<name>像素</name>
+<explane> </explane>
+</code>
+</list>

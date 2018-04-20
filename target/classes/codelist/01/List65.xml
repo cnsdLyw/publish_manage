@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="20">
+<name>可供</name>
+<explane/>
+</code>
+<code id="40">
+<name>不可供</name>
+<explane/>
+</code>
+<code id="45">
+<name>不单独出售</name>
+<explane>应作为套书中的部分出售。在相关产品（&lt;RelatedProduct&gt;）中说明套书</explane>
+</code>
+<code id="50">
+<name>不作为套书出售</name>
+<explane>当套书不作为套书销售时使用，尽管套书有自己的ONIX记录</explane>
+</code>
+<code id="49">
+<name>召回</name>
+<explane>从消费者安全考虑召回</explane>
+</code>
+</list>

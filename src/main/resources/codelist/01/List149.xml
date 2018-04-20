@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>产品层级</name>
+<explane>每个产品的题名元素</explane>
+</code>
+<code id="02">
+<name>套书层级</name>
+<explane>文献套书顶级层面的题名元素</explane>
+</code>
+<code id="03">
+<name>二级套书层级</name>
+<explane>文献套书中间层面的题名元素，包括两个或两个以上的二级套书题名</explane>
+</code>
+<code id="04">
+<name>内容项层级</name>
+<explane>产品内某一内容项的题名。如全集或选集中的一部作品，或一本书中的某一章</explane>
+</code>
+</list>

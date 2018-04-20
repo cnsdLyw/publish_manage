@@ -1,0 +1,18 @@
+日期组建：
+<div class="input-group col-md-6">
+	<input class="form-control date-picker" id="id-date-picker-1" type="text" data-date-format="yyyy-mm-dd">
+	<span class="input-group-addon">
+		<i class="fa fa-calendar bigger-110"></i>
+	</span>
+</div>
+
+/*日期选择控件加载*/
+$('.date-picker').datepicker({
+	autoclose : true,
+	todayHighlight : true
+})
+//show datepicker when clicking on the icon
+.next().on(ace.click_event, function() {
+	$(this).prev().focus();
+});
+												

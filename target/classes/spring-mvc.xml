@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:mvc="http://www.springframework.org/schema/mvc" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xmlns:context="http://www.springframework.org/schema/context" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+
+	<!-- 自动扫描controller包下的所有类，使其认为spring mvc的控制器 -->
+	<context:component-scan base-package="com.litc" >
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" /> 
+	</context:component-scan>
+
+    <!-- 
+    <mvc:annotation-driven />
+     -->
+    <!-- 解决@ResponseBody返回中文乱码问题  -->
+	<mvc:annotation-driven>
+    	<mvc:message-converters register-defaults="true">
+    		<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+      			<property name="supportedMediaTypes" value = "text/plain;charset=UTF-8" />
+    		</bean>
+  		 </mvc:message-converters>
+     </mvc:annotation-driven>
+	
+	<!-- 延迟加载配置 -->
+	<!-- 
+	<bean  class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">  
+	    <property name="interceptors">  
+	        <list>  
+	            <ref bean="openEntityManagerInViewInterceptor" />  
+	        </list>  
+	    </property>   
+   </bean> 
+    -->     
+ 	<!-- 和web.xml中原理类似，springMVC不对静态资源做任何处理 -->
+	<mvc:resources mapping="/js/**" location="/js/" />
+	<mvc:resources mapping="/css/**" location="/css/" />
+	<mvc:resources mapping="/images/**" location="/images/" />
+	<mvc:resources mapping="/resources/**" location="/resources/"/> 
+	<mvc:resources mapping="/attachement/**" location="/attachement/"/> 
+
+	<!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/views/" p:suffix=".jsp" />
+	
+	<!-- 统一异常处理类 -->
+	<bean id="exceptionHandler" class="com.litc.security.exception.MyExceptionResolver"/>
+     
+    <!--
+		 上传文件拦截，设置最大上传文件大小   100M=10*10*1024*1024(B)=10485760 bytes 
+	-->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="104857600"/>
+	</bean>
+	<!-- 解决中文乱码 -->
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" >  
+		<property name="messageConverters">   
+	         <list>   
+	             <bean class = "org.springframework.http.converter.StringHttpMessageConverter">   
+	                <property name = "supportedMediaTypes">
+	                      <list>
+	                          <value>text/html;charset=UTF-8</value>   
+	                     </list>   
+	                </property>   
+	             </bean>   
+	         </list>   
+	   </property>  
+	</bean>
+	
+	<!-- 重复登录验证拦截器 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/><bean class="com.litc.web.interceptor.SingleUserInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
+	 
+</beans>

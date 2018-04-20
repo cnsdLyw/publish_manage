@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="50">
+<name>起日期</name>
+<explane> 个人出生日期或机构创办日期</explane>
+</code>
+<code id="51">
+<name>止日期</name>
+<explane> 个人卒日期或机构注销日期</explane>
+</code>
+</list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>默认值</explane>
+</code>
+<code id="01">
+<name>临时价格</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>订货价格</name>
+<explane>出版前可以确定订货的价格，不一定是最终定价</explane>
+</code>
+</list>

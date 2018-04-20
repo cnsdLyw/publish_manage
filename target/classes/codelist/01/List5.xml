@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>专用</name>
+<explane>交换双方约定的代码方案。如，某出版者或批发商自己的产品编号</explane>
+</code>
+<code id="02">
+<name>ISBN-10</name>
+<explane>2007年以前使用的10位国际标准书号</explane>
+</code>
+<code id="03">
+<name>GTIN-13</name>
+<explane>13位数字全球贸易项目代码，曾为EAN商品条码</explane>
+</code>
+<code id="04">
+<name>UPC编码</name>
+<explane>12位数字UPC产品编号</explane>
+</code>
+<code id="06">
+<name>DOI</name>
+<explane>数字对象唯一标识符</explane>
+</code>
+<code id="14">
+<name>GTIN-14</name>
+<explane>14位数字全球贸易项目代码</explane>
+</code>
+<code id="15">
+<name>ISBN-13</name>
+<explane>2007年启用的13位国际标准书号</explane>
+</code>
+<code id="17">
+<name>法定呈缴号</name>
+<explane>国家法定程序规定的呈缴本的编号</explane>
+</code>
+<code id="22">
+<name>URN</name>
+<explane>统一资源名称。注意：在交易应用场合下，ISBN须采用 GTIN-13的格式发送，不能用URN发送</explane>
+</code>
+<code id="23">
+<name>OCLC编号</name>
+<explane>联机计算机图书馆中心为书目信息指定的唯一编号</explane>
+</code>
+<code id="24">
+<name>合作出版者的ISBN-13</name>
+<explane>合作出版者指定的13位ISBN编号。应注意以下两点：&#13;a）与标识类型代码为03和（或）15一起发送的“主要”ISBN应该永远是供应商在供应细节中订货使用的ISBN；&#13;b）ISBN规则允许合作出版的作品拥有一个以上的ISBN，合作出版者ISBN应该在出版者（&lt;Publisher&gt;）复合元素中，用出版者作用（&lt;PublishingRole&gt;）代码界定</explane>
+</code>
+<code id="25">
+<name>ISMN-13</name>
+<explane>2008年启用的13位数字国际标准音乐作品编号，从9790开始编号</explane>
+</code>
+<code id="26">
+<name>ISBN-A</name>
+<explane>ISBN-A始终附带ISBN，代码使用03或05。如同一个专用DOI将ISBN-13嵌入了DOI语法。显示在前“10.978.”或“10.979.”，出版者前缀与ISBN出版者元素之间有一个“/”，如10.978.000/1234567.</explane>
+</code>
+<code id="28">
+<name>OLCC</name>
+<explane>全国联合编目中心（http://olcc.nlc.gov.cn）</explane>
+</code>
+</list>

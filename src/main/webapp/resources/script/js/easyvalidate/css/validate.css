@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+/*验证提示样式控制文本框变红色*/
+.has-error input,.has-error select,.has-error textarea {
+	background: #fde59c;
+	background-color: #fde59c;
+	border-color: #f2a696;
+	color: #d68273;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}

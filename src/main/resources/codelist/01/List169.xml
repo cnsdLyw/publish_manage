@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>单位</name>
+<explane>数量类型所用的数量单位</explane>
+</code>
+<code id="08">
+<name>星期</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>月</name>
+<explane> </explane>
+</code>
+</list>

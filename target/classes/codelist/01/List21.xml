@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="ABR">
+<name>节选版</name>
+<explane>产品内容经过节选、缩写、简化、压缩的缩短版</explane>
+</code>
+<code id="ADP">
+<name>改写版</name>
+<explane>针对不同受众对象或某一目的，将内容进行介质转换时的改写。主要用于戏剧、小说等。用版本说明（&lt;EditionStatement&gt;）说明改写的准确性质</explane>
+</code>
+<code id="ANN">
+<name>注释版</name>
+<explane>通过增加注释对内容进行扩增</explane>
+</code>
+<code id="BLL">
+<name>双语版</name>
+<explane>用 “语种” 数据组对两种语言进行说明。多语版用本表中MLL代码</explane>
+</code>
+<code id="BRL">
+<name>布莱叶盲文版</name>
+<explane/>
+</code>
+<code id="CMB">
+<name>汇编版</name>
+<explane>将两本或两本以上分别出版的书整合成一卷，亦称“文集版”</explane>
+</code>
+<code id="CRI">
+<name>评论版</name>
+<explane>正文增加了评论内容的版本</explane>
+</code>
+<code id="CSP">
+<name>教材版</name>
+<explane>针对特定教程汇编在一起的版本</explane>
+</code>
+<code id="DGO">
+<name>数字原件</name>
+<explane>没有也不希望出现任何印刷版本的数字产品</explane>
+</code>
+<code id="ENH">
+<name>增强版</name>
+<explane>通过额外文本、讲话、其他音频和视频、交互或其他内容进行增强的电子出版物</explane>
+</code>
+<code id="ENL">
+<name>扩充版</name>
+<explane>在原版本的基础上对内容进行扩充或扩展的版本</explane>
+</code>
+<code id="EXP">
+<name>删节版</name>
+<explane>删除了“不合适”内容的版本</explane>
+</code>
+<code id="FAC">
+<name>仿真版</name>
+<explane>内容和格式与原版一模一样的精确复制品</explane>
+</code>
+<code id="FST">
+<name>纪念文集</name>
+<explane>由个人、机构或社团荣誉出版的文集</explane>
+</code>
+<code id="ILL">
+<name>插图版</name>
+<explane>内容包括大量插图的版本</explane>
+</code>
+<code id="LTE">
+<name>大字体版</name>
+<explane>采用14～19磅字号印刷的版本。超大字体版见本表中的ULP代码</explane>
+</code>
+<code id="MCP">
+<name>缩微版</name>
+<explane>采用超小字号印刷，需要放大镜阅读的版本</explane>
+</code>
+<code id="MDT">
+<name>媒体连结版</name>
+<explane>与同一作品的电影、电视节目或电子游戏版本一致的版本。用版本说明（&lt;EditionStatement&gt;）元素对所连结的内容进行准确说明</explane>
+</code>
+<code id="MLL">
+<name>多语版</name>
+<explane>用 “语种” 数据组对所有语言进行说明。双语版用本表中BLL代码</explane>
+</code>
+<code id="NED">
+<name>新版</name>
+<explane>在没有其他任何信息，及在没有任何其他适用的代码时使用</explane>
+</code>
+<code id="NUM">
+<name>限量版</name>
+<explane>每本书上有限量发行编号的版本</explane>
+</code>
+<code id="PRB">
+<name>改装版</name>
+<explane>分销商根据用户需要重新装订的版本。如简装改为硬皮，见出版者（&lt;Publisher&gt;） 和 相关产品（&lt;RelatedProduct&gt;）复合元素对改装版信息处理描述</explane>
+</code>
+<code id="REV">
+<name>修订版</name>
+<explane>在以前版本的基础上对内容进行了修订的版本</explane>
+</code>
+<code id="SCH">
+<name>学校用书版</name>
+<explane>专用于学校的版本</explane>
+</code>
+<code id="SMP">
+<name>简体语言版</name>
+<explane>使用简化语言的版本</explane>
+</code>
+<code id="SPE">
+<name>特殊版</name>
+<explane>用于周年纪念、豪华、作为礼品书、限量、签名和编号的版本。用版本说明（&lt;EditionStatement&gt;）元素说明准确性质</explane>
+</code>
+<code id="STU">
+<name>学生版</name>
+<explane>同时提供学生版和教师版时使用</explane>
+</code>
+<code id="TCH">
+<name>教师版</name>
+<explane>同时提供学生版和教师版时使用</explane>
+</code>
+<code id="UBR">
+<name>未节选版</name>
+<explane>没有被节选的完整内容的版本，适用于有声读物</explane>
+</code>
+<code id="ULP">
+<name>超大字体版</name>
+<explane>采用20磅以上的字号印刷的版本。大字体版参见本表中的LTE代码</explane>
+</code>
+<code id="UXP">
+<name>未删节版</name>
+<explane>未删除“不合适”内容的版本</explane>
+</code>
+<code id="VAR">
+<name>集注版</name>
+<explane>包括不同评论者对正文进行评论的内容，并且（或）包括对同一著作的不同版本的比较</explane>
+</code>
+</list>

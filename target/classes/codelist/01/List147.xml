@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>份数</name>
+<explane>对允许的摘要所能制作的最多份数</explane>
+</code>
+<code id="02">
+<name>字符数</name>
+<explane>对允许的摘要按规定使用的最多字符数</explane>
+</code>
+<code id="03">
+<name>字数</name>
+<explane>对允许的摘要按规定使用的最多字数</explane>
+</code>
+<code id="04">
+<name>页数</name>
+<explane>对允许的摘要按规定使用的最多页数</explane>
+</code>
+<code id="05">
+<name>百分比</name>
+<explane>对允许的摘要按规定使用的全部内容的最大百分比</explane>
+</code>
+<code id="06">
+<name>设备量</name>
+<explane>“共享团体”可使用的最大设备数量</explane>
+</code>
+<code id="07">
+<name>并发用户</name>
+<explane>并发用户的最大数量</explane>
+</code>
+<code id="08">
+<name>不同时间段的内容百分比</name>
+<explane>某一时间段使用全部内容的比例</explane>
+</code>
+<code id="09">
+<name>天数</name>
+<explane>按天计算的最大时间长度</explane>
+</code>
+<code id="10">
+<name>次数</name>
+<explane>规定使用的最多次数</explane>
+</code>
+</list>

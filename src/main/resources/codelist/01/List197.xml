@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>专用</name>
+<explane>对套书顺序类型名称（&lt;CollectionSequenceTypeName&gt;）中提供的顺序进行简短说明的标签</explane>
+</code>
+<code id="02">
+<name>题名顺序</name>
+<explane>根据题名排序提供确认。如根据“卷”或“部”进行排序</explane>
+</code>
+<code id="03">
+<name>出版顺序</name>
+<explane>按套书中产品的出版顺序排序</explane>
+</code>
+<code id="04">
+<name>时间/故事情节顺序</name>
+<explane>按照套书中产品所述故事的时间或情节顺序排序。既可适用于小说类产品，也可适用于非小说类产品。如历史课本套书</explane>
+</code>
+<code id="05">
+<name>原始出版顺序</name>
+<explane>指重新出版的套书或归类套书中的产品在收入套书之前的最初出版顺序</explane>
+</code>
+</list>

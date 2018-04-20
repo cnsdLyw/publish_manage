@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="02">
+<name>含税建议零售价</name>
+<explane>包含任何销售税或增值税在内的建议零售价</explane>
+</code>
+<code id="04">
+<name>含税固定零售价格</name>
+<explane>受国家法律约束的产品的零售价</explane>
+</code>
+<code id="07">
+<name>供应商含税净价格</name>
+<explane>供应商给分销商的包括任何销售税或增值税的零售单价</explane>
+</code>
+<code id="12">
+<name>含税的特卖品建议零价</name>
+<explane>含销售税或增值税的特卖品建议零售价</explane>
+</code>
+<code id="22">
+<name>出版前含税建议零售价</name>
+<explane>包括任何销售税或增值税的出版前建议零售价</explane>
+</code>
+<code id="32">
+<name>含税免收运费建议零售价</name>
+<explane>使用了免运费条款时，供应商向分销商提供的经过计算的价格，即采用了交易折扣</explane>
+</code>
+<code id="42">
+<name>出版者含税零售价</name>
+<explane>出版者根据代理条款，规定的包括销售税或增值税的价格</explane>
+</code>
+</list>

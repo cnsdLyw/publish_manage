@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>书评</name>
+<explane>第三方用任何媒体发表的评论全文</explane>
+</code>
+<code id="02">
+<name>畅销书排行榜</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>媒体提及</name>
+<explane>书评以外的评论</explane>
+</code>
+</list>

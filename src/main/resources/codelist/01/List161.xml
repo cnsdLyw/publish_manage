@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>可链接资源</name>
+<explane>可以通过超链接进行访问的资源。说明：当前主机（如出版者为ONIX发送方）在产品有效寿命期间（或至少在内容日期（&lt;ContentDate&gt;）复合元素中标注的日期之前）提供在线资源寄存服务。接收方可将URL网址嵌入到消费者访问的网站，而不必将资源放到网站之上</explane>
+</code>
+<code id="02">
+<name>可下载文件</name>
+<explane>为第三方使用提供的按需下载文件。ONIX的发送方为了让接收方直接使用，将资源副本按照内容日期（&lt;ContentDate&gt;）复合元素中标注的日期放到主机上。如果接收方要在消费者访问的网站上使用该资源，须将其下载并放到自己的主机上</explane>
+</code>
+<code id="03">
+<name>可嵌入应用程序</name>
+<explane>能嵌入到第三方网页的应用程序。除资源中包括了JavaScript、Flash等活动内容外，其他与代码02相同</explane>
+</code>
+</list>

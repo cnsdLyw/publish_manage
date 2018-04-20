@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="A103">
+<name>MP3</name>
+<explane>MP3音频格式</explane>
+</code>
+<code id="A104">
+<name>WAV</name>
+<explane>WAV音频格式</explane>
+</code>
+<code id="A105">
+<name>Real Audio</name>
+<explane>Real音频格式</explane>
+</code>
+<code id="A106">
+<name>WMA</name>
+<explane>Windows Media 音频格式</explane>
+</code>
+<code id="A107">
+<name>AAC</name>
+<explane>高级音频编码格式</explane>
+</code>
+<code id="D101">
+<name>Real Video</name>
+<explane>Real流媒体视频格式，包括封装在*.rm文件中的视频和音频内容</explane>
+</code>
+<code id="D102">
+<name>QuickTime</name>
+<explane>QuickTime视频格式</explane>
+</code>
+<code id="D103">
+<name>AVI</name>
+<explane>AVI视频格式</explane>
+</code>
+<code id="D104">
+<name>WMV</name>
+<explane>Windows Media 视频格式</explane>
+</code>
+<code id="D105">
+<name>MPEG-4</name>
+<explane>MPEG-4视频格式</explane>
+</code>
+<code id="D106">
+<name>FLV</name>
+<explane>Flash Video 格式</explane>
+</code>
+<code id="D107">
+<name>SWF</name>
+<explane>ShockWave 格式</explane>
+</code>
+<code id="D401">
+<name>PDF</name>
+<explane> </explane>
+</code>
+<code id="D501">
+<name>GIF</name>
+<explane> </explane>
+</code>
+<code id="D502">
+<name>JPEG</name>
+<explane> </explane>
+</code>
+<code id="D503">
+<name>PNG</name>
+<explane> </explane>
+</code>
+<code id="D504">
+<name>TIFF</name>
+<explane> </explane>
+</code>
+<code id="E101">
+<name>EPUB</name>
+<explane>国际数字出版论坛制定的开放出版结构（OPS：Open Publication Structure）标准格式。文件名后缀为“ .epub”</explane>
+</code>
+<code id="E139">
+<name>CEB</name>
+<explane>Chinese E-paper Basic，北大方正专有的版式文件格式</explane>
+</code>
+<code id="E140">
+<name>CEBX</name>
+<explane>Common e-Document of Blending XML，北大方正专有的基于XML的电子文档格式</explane>
+</code>
+</list>

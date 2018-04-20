@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="02">
+<name>禁售日期</name>
+<explane>此日期之前禁止零售，此日期之后可以零售</explane>
+</code>
+<code id="08">
+<name>预计可供日期</name>
+<explane>预计自此日期起可向零售商发货，或发布数字产品</explane>
+</code>
+<code id="18">
+<name>最后退货日期</name>
+<explane>接受退货的最后日期，一般指滞销或绝版的产品</explane>
+</code>
+</list>

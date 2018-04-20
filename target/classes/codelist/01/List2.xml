@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>单项目零售产品</name>
+<explane/>
+</code>
+<code id="10">
+<name>多项目零售产品</name>
+<explane>多项产品组合成为一个整体零售的产品</explane>
+</code>
+<code id="11">
+<name>多项目可单独零售的套书</name>
+<explane>多项产品组成的能整体销售也能每个销售的套书</explane>
+</code>
+<code id="20">
+<name>交易配套产品</name>
+<explane>不独立零售，并且不包括产品内容的配套物品。如包装箱、盒，促销材料等</explane>
+</code>
+<code id="30">
+<name>多项目促销套装</name>
+<explane>以促销为目的将多项产品包装出售的套装。如用收缩塑料薄膜、促销盒等包装</explane>
+</code>
+</list>

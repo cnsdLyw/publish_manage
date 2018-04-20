@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>时间段</name>
+<explane>价格条件数量用时间段表示</explane>
+</code>
+<code id="02">
+<name>更新次数</name>
+<explane>价格条件数量用更新次数表示</explane>
+</code>
+</list>

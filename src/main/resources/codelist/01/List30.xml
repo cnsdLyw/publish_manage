@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="15">
+<name>阅读速度</name>
+<explane>按每分钟字数计算。注意：受众对象范围值（&lt;AudienceRangeValue&gt;）元素中的数值应为整数</explane>
+</code>
+<code id="16">
+<name>兴趣年龄，按月</name>
+<explane>30 月以下的幼儿。注意：受众对象范围值（&lt;AudienceRangeValue&gt;）元素中的数值应为整数</explane>
+</code>
+<code id="17">
+<name>兴趣年龄，按年</name>
+<explane>受众对象范围值（&lt;AudienceRangeValue&gt;）元素中的数值应为整数</explane>
+</code>
+<code id="18">
+<name>阅读年龄，按年</name>
+<explane>受众对象范围值（&lt;AudienceRangeValue&gt;）元素中的数值应为整数</explane>
+</code>
+<code id="29">
+<name>中国学校年级范围</name>
+<explane>受众对象范围值（&lt;AudienceRangeValue&gt;）元素中的数值参见“附录E”</explane>
+</code>
+</list>

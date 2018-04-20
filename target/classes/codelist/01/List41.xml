@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>第一名</name>
+<explane/>
+</code>
+<code id="02">
+<name>第二名</name>
+<explane/>
+</code>
+<code id="03">
+<name>嘉奖</name>
+<explane>除第一、第二名以外的获奖者</explane>
+</code>
+<code id="04">
+<name>复选名单</name>
+<explane>评选过程中产生的提名名单，获奖者从该名单中产生</explane>
+</code>
+<code id="05">
+<name>初选名单</name>
+<explane>评选过程中产生的提名名单，参加复选者从该名单中产生</explane>
+</code>
+<code id="06">
+<name>联合获奖</name>
+<explane>指两个以上并列获奖者</explane>
+</code>
+</list>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>护封或腰封颜色</name>
+<explane>产品形式特征值见“表56 颜色代码表”</explane>
+</code>
+<code id="02">
+<name>书口颜色</name>
+<explane>产品形式特征值见“表56 颜色代码表”</explane>
+</code>
+<code id="03">
+<name>文本字体</name>
+<explane>正文的主要字体是产品描述的重要方面。产品形式特征值是指字体大小和风格等</explane>
+</code>
+<code id="04">
+<name>特殊封面材料</name>
+<explane>产品型式特征值见“表 57特殊封面材料代码表”</explane>
+</code>
+<code id="05">
+<name>DVD 区域</name>
+<explane>产品型式特征值见“表50 DVD区域代码表”</explane>
+</code>
+<code id="06">
+<name>操作系统</name>
+<explane>使用数字产品时需要的电脑或手持装置上的操作系统，可在产品形式描述中说明操作系统的版本或详细信息。产品形式特征值见“表93操作系统代码表” </explane>
+</code>
+<code id="07">
+<name>其他操作系统</name>
+<explane>数字产品所需的其他操作系统，在产品形式描述中通过任意文字加以描述</explane>
+</code>
+</list>

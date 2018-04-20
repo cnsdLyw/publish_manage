@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <context:annotation-config/>
+    <security:global-method-security secured-annotations="enabled"></security:global-method-security>
+
+    <security:http auto-config="true" access-decision-manager-ref="accessDecisionManager"> <!-- access-denied-page="错误时配置的跳转页面" use-expressions="true" -->
+        <security:intercept-url pattern="/publish/content/*" access="ROLER_ADMIN"/>
+        <security:intercept-url pattern="/companybook/*" access="ROLER_PUBLISH"/>
+        <security:intercept-url pattern="/librarybook/*" access="ROLER_LIBRARY"/>
+        <security:intercept-url pattern="/issuebook/*" access="ROLER_ISSUE"/>
+        <security:intercept-url pattern="/centerBook/*" access="ROLER_CENTER_BOOK"/>
+        <security:intercept-url pattern="/strategy/*" access="ROLER_BOOK_EXCHANGE"/>
+        <security:intercept-url pattern="/message/*" access="ROLER_MESSAGE_SEND,ROLER_MESSAGE_RECEIVE,ROLER_MESSAGE_MANAGE"/>
+        <security:intercept-url pattern="/processTask/*" access="ROLER_PROCESS"/>
+        <security:intercept-url pattern="/processCenter/*" access="ROLER_CENTER_PROCESS,ROLER_CENTER_PROCESS_MYTASK,ROLER_CENTER_PROCESS_STATISTICS"/>
+        <security:intercept-url pattern="/testApplication/*" access="ROLER_COMPLIANCE,ROLER_COMPLIANCE_MANAGE"/>
+        <security:intercept-url pattern="/complianceTestTask/*" access="ROLER_COMPLIANCE_TASK_MANAGE,ROLER_COMPLIANCE_MYTASK"/>
+        <security:intercept-url pattern="/complianceTestCase/*" access="ROLER_COMPLIANCE_TESTCASE"/>
+        <security:intercept-url pattern="/bookWarehouse/*" access="ROLER_BOOK_PUBLIC_ALL"/>
+        <security:intercept-url pattern="/publishBook/*" access="ROLER_BOOK_PUBLIC_1,ROLER_BOOK_PUBLIC_2,ROLER_BOOK_PUBLIC_3"/>
+        <security:intercept-url pattern="/publishAuthor/*" access="ROLER_BOOK_PUBLIC_AUTHOR"/>
+        <security:intercept-url pattern="/publishPress/*" access="ROLER_BOOK_PUBLIC_PRESS"/>
+        <security:intercept-url pattern="/content/*" access="ROLER_CONTENT_PUBLIC_PICTURE,ROLER_CONTENT_PUBLIC_NEWS,ROLER_CONTENT_PUBLIC_LINK,ROLER_CONTENT_PUBLIC_FILE"/>
+        <security:intercept-url pattern="/faq/*" access="ROLER_CONTENT_PUBLIC_FAQ"/>
+        <!-- <security:intercept-url pattern="/statistics/*" access="ROLER_STATISTICS"/> -->
+        <security:intercept-url pattern="/statisticsExt/bookSearch/*" access="ROLER_STATISTICS_BOOK"/>
+        <security:intercept-url pattern="/statisticsExt/censusByOrg/*" access="ROLER_STATISTICS_ORG"/>
+        <security:intercept-url pattern="/statisticsExt/censusByIndustry/*" access="ROLER_STATISTICS_INDUSTRY"/>
+        <security:intercept-url pattern="/statisticsExt/marketStatistics/*" access="ROLER_STATISTICS_MARKET"/>
+        <security:intercept-url pattern="/filescenter/*" access="ROLER_FILE"/>
+        <security:intercept-url pattern="/storageDevice/*" access="ROLER_STORAGE_DEVICE"/>
+        <security:intercept-url pattern="/sysConfirure/*" access="ROLER_CONFIGURE"/>
+        <security:intercept-url pattern="/jcClassification/*" access="ROLER_CLASS"/>
+        <security:intercept-url pattern="/jetsenServiceTask/*" access="ROLER_TASK"/>
+        
+        <security:intercept-url pattern="/chargingOrg/*" access="ROLER_CHARGING_ORG"/>
+        <security:intercept-url pattern="/charging/*" access="ROLER_CHARGING"/>
+        <security:intercept-url pattern="/chargingStrategy/*" access="ROLER_CHARGING_STRATEGY"/>
+        <security:intercept-url pattern="/chargingAuthority/*" access="ROLER_CHARGING_AUTHORITY"/>
+        
+        <security:intercept-url pattern="/organization/*" access="ROLER_ORGANIZATION,ROLER_SYS_ORGANIZATION"/>
+        <security:intercept-url pattern="/organizationApply/*" access="ROLER_ORGANIZATION_APPLY"/>
+        <security:intercept-url pattern="/jmxRest/*" access="ROLER_DATA_EXCHANGE"/>
+        <security:intercept-url pattern="/organizationLibrary/*" access="ROLER_STANDARD_ORGANIZATION"/>
+        <security:intercept-url pattern="/user/*" access="ROLER_SYS_USER"/>
+        <security:intercept-url pattern="/role/*" access="ROLER_SYS_ROLE"/>
+        <security:intercept-url pattern="/authority/*" access="ROLER_SYS_AUTHORITY"/>
+        <security:intercept-url pattern="/codeTable/*" access="ROLER_SYS_CODETABLE"/>
+        
+        <security:intercept-url pattern="/bookHistory/*" access="ROLER_PUBLISH,ROLER_LIBRARY,ROLER_ISSUE"/>
+        <security:intercept-url pattern="/rests/*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <security:intercept-url pattern="/resources/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <security:intercept-url pattern="/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/><!-- IS_AUTHENTICATED_REMEMBERED -->
+        <security:form-login login-page="/security/login" authentication-failure-url="/security/login?errorCode=1"
+        default-target-url="/index" always-use-default-target="true"/>
+        <security:logout logout-url="/logout" logout-success-url="/security/login?successCode=2" invalidate-session="true"/>
+        <security:access-denied-handler ref="accessDeniedHandler"/><!-- 没有权限时跳转 --> 
+    </security:http>
+    
+    <security:authentication-manager>
+        <security:authentication-provider user-service-ref="userDetailsService">
+        <!--   前台传参进行md5加密，后台校验去掉加密 -->
+        	<!-- <security:password-encoder hash="md5"/> -->
+        </security:authentication-provider>
+    </security:authentication-manager>
+    
+	<bean id="userDetailsService"
+		class="com.litc.security.service.UserDetailsServiceImpl" />
+		
+	<bean id="accessDeniedHandler"
+	     class="org.springframework.security.web.access.AccessDeniedHandlerImpl">
+	  <property name="errorPage" value="/security/login?errorCode=2"/>
+	</bean>
+	
+	<bean id="accessDecisionManager"
+		class="org.springframework.security.access.vote.AffirmativeBased">
+		<property name="decisionVoters">
+			<list>
+				<bean
+					class="org.springframework.security.access.vote.RoleVoter">
+					<property name="rolePrefix" value="ROLER_" />
+				</bean>
+				<bean
+					class="org.springframework.security.access.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean>
+</beans>

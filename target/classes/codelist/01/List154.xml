@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未限制</name>
+<explane>任何受众对象</explane>
+</code>
+<code id="01">
+<name>限制</name>
+<explane>各方在交换数据时达成的发行协议，当ONIX的内容包括了不宜公开发行的内容时使用</explane>
+</code>
+<code id="02">
+<name>图书交易</name>
+<explane>发行商、书店、出版者自己的员工等.</explane>
+</code>
+<code id="03">
+<name>最终消费者</name>
+<explane> </explane>
+</code>
+<code id="04">
+<name>图书馆人员</name>
+<explane> </explane>
+</code>
+<code id="05">
+<name>教师</name>
+<explane> </explane>
+</code>
+<code id="06">
+<name>学生</name>
+<explane> </explane>
+</code>
+<code id="07">
+<name>报界</name>
+<explane>报界及其他媒体</explane>
+</code>
+<code id="08">
+<name>购物对比服务</name>
+<explane>需要特殊格式描述的受众对象</explane>
+</code>
+</list>

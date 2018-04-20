@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane/>
+</code>
+<code id="01">
+<name>黑白插图</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>彩色插图</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>黑白半调</name>
+<explane>包括黑白照片</explane>
+</code>
+<code id="04">
+<name>彩色半调</name>
+<explane>包括彩色照片</explane>
+</code>
+<code id="05">
+<name>黑白线条图</name>
+<explane> </explane>
+</code>
+<code id="06">
+<name>彩色线条图</name>
+<explane> </explane>
+</code>
+<code id="07">
+<name>黑白表格</name>
+<explane> </explane>
+</code>
+<code id="08">
+<name>彩色表格</name>
+<explane> </explane>
+</code>
+<code id="09">
+<name>插图，未说明</name>
+<explane> </explane>
+</code>
+<code id="10">
+<name>半调，未说明</name>
+<explane>包括照片</explane>
+</code>
+<code id="11">
+<name>表格，未说明</name>
+<explane> </explane>
+</code>
+<code id="12">
+<name>线条图，未说明</name>
+<explane> </explane>
+</code>
+<code id="13">
+<name>半调，双色</name>
+<explane> </explane>
+</code>
+<code id="14">
+<name>地图</name>
+<explane> </explane>
+</code>
+<code id="15">
+<name>卷首插画</name>
+<explane> </explane>
+</code>
+<code id="16">
+<name>图示</name>
+<explane> </explane>
+</code>
+<code id="17">
+<name>数字</name>
+<explane> </explane>
+</code>
+<code id="18">
+<name>图表</name>
+<explane> </explane>
+</code>
+<code id="19">
+<name>音乐录音</name>
+<explane>有文字介绍或其他内容的音乐录音片段或样段，或完整的音乐录音作品</explane>
+</code>
+<code id="20">
+<name>音乐印刷品</name>
+<explane>有文字介绍或其他内容的音乐片段或样段，或完整的乐谱（总谱）</explane>
+</code>
+<code id="21">
+<name>曲线图</name>
+<explane>坐标图。参照代码16和18</explane>
+</code>
+<code id="22">
+<name>单页插图，未说明</name>
+<explane>作为独立页面的单页插图</explane>
+</code>
+<code id="23">
+<name>黑白单页插图</name>
+<explane>作为独立页面的单页插图</explane>
+</code>
+<code id="24">
+<name>彩色单页插图</name>
+<explane>作为独立页面的单页插图</explane>
+</code>
+<code id="25">
+<name>索引</name>
+<explane> </explane>
+</code>
+<code id="26">
+<name>参考书目</name>
+<explane> </explane>
+</code>
+<code id="27">
+<name>插页地图</name>
+<explane>地图册中的大比例尺插页</explane>
+</code>
+<code id="28">
+<name>GPS 网格</name>
+<explane>包括地图产品在内的全球定位系统座标网格图案</explane>
+</code>
+</list>

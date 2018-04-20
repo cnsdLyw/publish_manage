@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!--  <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean"/> -->
+     
+    <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">  
+			<list>  
+				<ref bean="cronTrigger" />  
+				<ref bean="notifyTrigger" />  
+			</list>  
+		</property> 
+    </bean>
+    
+    <!-- cron的定时器，绑定访问云平台接口的任务。 -->
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+		<property name="jobDetail" ref="callCloudPlatformJob"/>
+		<!-- 每1分钟执行一次 -->
+		<!-- <property name="cronExpression" value="0 0/1 * * * ?"/> -->
+		<property name="cronExpression" value="0 0 23 * * ?"/>
+	</bean>  
+
+  	<!-- 将需要执行的定时任务注入JOB中。 -->
+    <bean id="callCloudPlatformJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="callCloudPlatformQuartz"></property>
+        <!-- 任务类中需要执行的方法 -->
+        <property name="targetMethod" value="reportHeartBeatStatus"></property>
+        <!-- 上一次未执行完成的，要等待有再执行。 -->
+        <property name="concurrent" value="false"></property>
+    </bean>
+     <!-- 要执行任务的任务类。 -->
+    <bean id="callCloudPlatformQuartz" class="com.litc.security.service.impl.CallCloudPlatformServiceImpl">
+    </bean>
+    
+    
+    
+    
+     <!-- 给云平台发送完成通知接口。 -->
+    <bean id="notifyTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+		<property name="jobDetail" ref="sendNotifyJob"/>
+		<!-- 每1分钟执行一次 -->
+		<!-- <property name="cronExpression" value="0 0/1 * * * ?"/> -->
+		<property name="cronExpression" value="0 0/3 * * * ?"/>
+		
+	</bean>  
+
+  	<!-- 将需要执行的定时任务注入JOB中。 -->
+    <bean id="sendNotifyJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="sendNotifyQuartz"></property>
+        <!-- 任务类中需要执行的方法 -->
+        <property name="targetMethod" value="sendNotify"></property>
+        <!-- 上一次未执行完成的，要等待有再执行。 -->
+        <property name="concurrent" value="false"></property>
+    </bean>
+     <!-- 要执行任务的任务类。 -->
+    <bean id="sendNotifyQuartz" class="com.litc.security.controller.rest.IntegrateRestController">
+    </bean>
+</beans>

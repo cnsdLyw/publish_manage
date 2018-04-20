@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="A101">
+<name>CD </name>
+<explane>标准音频格式</explane>
+</code>
+<code id="A102">
+<name>SACD </name>
+<explane>超级音频格式</explane>
+</code>
+<code id="A103">
+<name>MP3 </name>
+<explane>MP3音频格式</explane>
+</code>
+<code id="A104">
+<name>WAV </name>
+<explane>WAV音频格式</explane>
+</code>
+<code id="A105">
+<name>Real </name>
+<explane>Real音频格式</explane>
+</code>
+<code id="A106">
+<name>WMA</name>
+<explane>Windows Media 音频格式</explane>
+</code>
+<code id="A107">
+<name>AAC</name>
+<explane>高级音频编码格式</explane>
+</code>
+<code id="A108">
+<name>Ogg/Vorbis</name>
+<explane>Ogg container 中使用的Vorbis音频格式</explane>
+</code>
+<code id="A109">
+<name>Audible 格式</name>
+<explane>Audible.com 专用的音频格式</explane>
+</code>
+<code id="A110">
+<name>FLAC</name>
+<explane>无损音频解码格式</explane>
+</code>
+<code id="A111">
+<name>AIFF</name>
+<explane>可交换音频文件格式</explane>
+</code>
+<code id="A112">
+<name>ALAC</name>
+<explane>苹果专用无损音频解码格式</explane>
+</code>
+<code id="A201">
+<name>DAISY 2</name>
+<explane>全部音频及标题-无导航菜单</explane>
+</code>
+<code id="A202">
+<name>DAISY 2</name>
+<explane>全部音频-带导航菜单</explane>
+</code>
+<code id="A203">
+<name>DAISY 2</name>
+<explane>全部音频-带导航菜单和部分文本</explane>
+</code>
+<code id="A204">
+<name>DAISY 2</name>
+<explane>全部音频和全部文本</explane>
+</code>
+<code id="A205">
+<name>DAISY 2</name>
+<explane>全部文本和部分音频</explane>
+</code>
+<code id="A206">
+<name>DAISY 2</name>
+<explane>全部文本但没有音频</explane>
+</code>
+<code id="A207">
+<name>DAISY 3</name>
+<explane>全部音频及标题-无导航菜单</explane>
+</code>
+<code id="A208">
+<name>DAISY 3</name>
+<explane>全部音频-带导航菜单</explane>
+</code>
+<code id="A209">
+<name>DAISY 3</name>
+<explane>全部音频-带导航菜单和部分文本</explane>
+</code>
+<code id="A210">
+<name>DAISY 3 </name>
+<explane>全部音频和全部文本</explane>
+</code>
+<code id="A211">
+<name>DAISY 3</name>
+<explane>全部文本和部分音频</explane>
+</code>
+<code id="A212">
+<name>DAISY 3</name>
+<explane>全部文本但没有音频</explane>
+</code>
+<code id="B206">
+<name>立体插图书</name>
+<explane> </explane>
+</code>
+<code id="B207">
+<name>有气味的图书</name>
+<explane>有模拟特殊气味的图书</explane>
+</code>
+<code id="B208">
+<name>有模拟声音的图书</name>
+<explane>有模拟声音的故事图书</explane>
+</code>
+<code id="B209">
+<name>贴画图书</name>
+<explane> </explane>
+</code>
+<code id="B210">
+<name>触摸图书</name>
+<explane>有模拟触摸手感插页的图书。还可参见B214和 B215</explane>
+</code>
+<code id="B212">
+<name>冲切图书</name>
+<explane>切割成不同的非直线形状和（或）内部切为圆洞或其他形状的图书</explane>
+</code>
+<code id="B213">
+<name>玩具式图书</name>
+<explane>以玩具形式出现或嵌入了玩具的图书。注意：不同于图书和玩具可以分开的产品</explane>
+</code>
+<code id="B214">
+<name>软手感图书</name>
+<explane>封面使用了软质材料图书，一般包在硬纸板外面</explane>
+</code>
+<code id="B215">
+<name>毛绒感图书</name>
+<explane>有可分离的毡片或有织纹页面的图书</explane>
+</code>
+<code id="B221">
+<name>连环画</name>
+<explane/>
+</code>
+<code id="B304">
+<name>线装</name>
+<explane>亦称缝合；而“骑马式” 见代码B310</explane>
+</code>
+<code id="B305">
+<name>非线装 / 胶粘</name>
+<explane>包括“完美装订”、“胶粘式”装订</explane>
+</code>
+<code id="B306">
+<name>图书馆式装订</name>
+<explane>为图书馆使用而进行的增强式装订</explane>
+</code>
+<code id="B307">
+<name>增强式装订</name>
+<explane>增强式装订，但不是为了供图书馆使用</explane>
+</code>
+<code id="B308">
+<name>半装订</name>
+<explane>应结合说明材料的代码使用，如“真皮半装订”</explane>
+</code>
+<code id="B309">
+<name>四分之一装订</name>
+<explane>应结合说明材料的代码使用，如“真皮四分之一装订”</explane>
+</code>
+<code id="B310">
+<name>马式缝合</name>
+<explane>亦称“骑马”式缝合或“线装”</explane>
+</code>
+<code id="B401">
+<name>硬纸板布面</name>
+<explane>也就是硬纸板外覆盖织品、亚麻布</explane>
+</code>
+<code id="B402">
+<name>硬纸板纸面</name>
+<explane> </explane>
+</code>
+<code id="B403">
+<name>真皮</name>
+<explane> </explane>
+</code>
+<code id="B404">
+<name>仿皮</name>
+<explane> </explane>
+</code>
+<code id="B405">
+<name>人造革</name>
+<explane> </explane>
+</code>
+<code id="B406">
+<name>牛皮纸</name>
+<explane> </explane>
+</code>
+<code id="B409">
+<name>棉布</name>
+<explane/>
+</code>
+<code id="B411">
+<name>天鹅绒</name>
+<explane> </explane>
+</code>
+<code id="D101">
+<name>Real </name>
+<explane> Real流媒体视频格式，包括封装在*.rm文件中的视频和音频内容</explane>
+</code>
+<code id="D102">
+<name>Quicktime</name>
+<explane> Quicktime视频格式</explane>
+</code>
+<code id="D103">
+<name>AVI </name>
+<explane> AVI视频格式</explane>
+</code>
+<code id="D104">
+<name>Windows Media </name>
+<explane> Windows Media视频格式</explane>
+</code>
+<code id="D105">
+<name>MPEG-4</name>
+<explane> MPEG-4视频格式</explane>
+</code>
+<code id="E101">
+<name>EPUB</name>
+<explane>国际数字出版论坛制定的开放出版结构（OPS：Open Publication Structure）格式标准。文件名后缀为“ .epub”</explane>
+</code>
+<code id="E102">
+<name>OEB</name>
+<explane>国际数字出版论坛的开放电子图书格式，EPUB 格式的前身。[文件名后缀为 .opf]</explane>
+</code>
+<code id="E103">
+<name>DOC</name>
+<explane>Microsoft Word 的二进位文件格式。[文件附属名为 .doc]</explane>
+</code>
+<code id="E104">
+<name>DOCX</name>
+<explane>Office Open XML / Microsoft Word XML 文件格式 (ISO/IEC&#13;29500:2008)。[文件附属名为 .docx]</explane>
+</code>
+<code id="E105">
+<name>HTML</name>
+<explane>HyperText Mark-up 语言。[文件附属名为 .html, .htm]</explane>
+</code>
+<code id="E106">
+<name>ODF</name>
+<explane>开放文件格式。[文件附属名为 .odt]</explane>
+</code>
+<code id="E107">
+<name>PDF</name>
+<explane>便携文件格式 (ISO 32000-1:2008)。 [文件附属名为 .pdf]</explane>
+</code>
+<code id="E108">
+<name>PDF/A</name>
+<explane>ISO 19005-1:2005 规定的PDF 档案格式。 [文件附属名为 .pdf]</explane>
+</code>
+<code id="E109">
+<name>RTF</name>
+<explane>Rich Text 格式。[文件附属名为 .rtf]</explane>
+</code>
+<code id="E110">
+<name>SGML</name>
+<explane>Standard Generalized Mark-up 语言</explane>
+</code>
+<code id="E111">
+<name>TCR</name>
+<explane>主要在各类 Psion 手持装置上使用的压缩文件格式。 [文件附属名为 .tcr]</explane>
+</code>
+<code id="E112">
+<name>TXT</name>
+<explane>纯文本格式。[文件附属名为 .txt]</explane>
+</code>
+<code id="E113">
+<name>XHTML</name>
+<explane>可扩展超文本语言格式。[文件附属名为 .xhtml, .xht,&#13;.xml, .html, .htm]</explane>
+</code>
+<code id="E114">
+<name>zTXT</name>
+<explane>主要在各类 Palm 手持装置上使用的压缩文件格式。 [文件附属名为 .pdb——参见E121, E125, E130]</explane>
+</code>
+<code id="E115">
+<name>XPS</name>
+<explane>XML Paper Specification 格式。 [文件附属名为 .xps]</explane>
+</code>
+<code id="E116">
+<name>Amazon Kindle</name>
+<explane>用于亚马逊Kindle 阅读器的专用文件格式。[文件附属名为 .azw]</explane>
+</code>
+<code id="E117">
+<name>BBeB</name>
+<explane>用于索尼文件阅读器以及LIBRIé阅读器的索尼专用格式。 [文件附属名为 .lrf]</explane>
+</code>
+<code id="E118">
+<name>DXReader</name>
+<explane>用于DXReader软件的专用格式</explane>
+</code>
+<code id="E119">
+<name>EBL</name>
+<explane>用于电子图书馆服务的专用格式</explane>
+</code>
+<code id="E120">
+<name>Ebrary</name>
+<explane>用于Ebrary服务的专用格式</explane>
+</code>
+<code id="E121">
+<name>eReader</name>
+<explane>在硬件平台上使用eReader软件(Palm Reader)的专用格式。[文件附属名为 .pdb——参见 E114, E125, E130]</explane>
+</code>
+<code id="E122">
+<name>Exebook</name>
+<explane>用于Windows平台自己阅读系统的专用格式。[文件附属名为 .exe]</explane>
+</code>
+<code id="E123">
+<name>Franklin eBookman</name>
+<explane>用于Franklin eBookman阅读器的专用格式</explane>
+</code>
+<code id="E124">
+<name>Gemstar</name>
+<explane>用于 Gemstar Rocketbook 阅读器的专用格式。[文件附属名为 .rb]</explane>
+</code>
+<code id="E125">
+<name>iSilo</name>
+<explane>在各种硬件平台上使用 iSilo 软件的专用格式。 [文件附属名为 .pdb——同时参见 E114, E121, E130]</explane>
+</code>
+<code id="E126">
+<name>Microsoft Reader</name>
+<explane>在Windows和Pocket PC上使用微软阅读器软件的专用格式。 [文件附属名为 .lit]</explane>
+</code>
+<code id="E127">
+<name>Mobipocket</name>
+<explane>在各种硬件平台上使用Mobipocket 软件的专用格式。 [文件附属名为 .prc]</explane>
+</code>
+<code id="E128">
+<name>MyiLibrary</name>
+<explane>用于MyiLibrary服务的专用格式</explane>
+</code>
+<code id="E129">
+<name>NetLibrary</name>
+<explane>用于NetLibrary服务的专用格式</explane>
+</code>
+<code id="E130">
+<name>Plucker</name>
+<explane>在Palm 和其他手持装置上使用Plucker 阅读器软件的专用格式。[文件附属名为 .pdb]</explane>
+</code>
+<code id="E131">
+<name>VitalBook</name>
+<explane>用于VitalSource 装置的专用格式</explane>
+</code>
+<code id="E132">
+<name>Vook</name>
+<explane>一种文本和视频内容的数字产品，可在线使用，或供移动装置下载&#13;见www.vook.com.</explane>
+</code>
+<code id="E133">
+<name>Google Edition</name>
+<explane>一种谷歌与出版者共同开发的电子出版方式，可通过浏览器在线阅读，或供特定的电子图书读者离线阅读</explane>
+</code>
+<code id="E134">
+<name>Android 系统下的图书“应用”</name>
+<explane>经过打包、用于Android系统（如使用Android系统的手机或平板电脑）下的电子图书，既包括可执行代码，也包括内容。用&lt;ProductContentType&gt;对内容进行描述，用&lt;ProductFormFeatureType&gt;列出详细的技术需求</explane>
+</code>
+<code id="E135">
+<name>其他操作系统下的图书“应用程序”</name>
+<explane>打包作为应用软件的电子图书，既包括可执行代码，也包括内容。当其他“应用程序”无法使用的情况下使用。应在&lt;ProductFormFeatureType&gt;提供目标操作系统和/或阅读装置的技术需求。内容类型（文本或文本加各种“增强型内容”）可用&lt;ProductContentType&gt;进行描述</explane>
+</code>
+<code id="E136">
+<name>Android 系统下的图书“应用”</name>
+<explane>经过打包、用于Android系统（如使用Android系统的手机或平板电脑）下的电子图书，既包括可执行代码，也包括内容。用&lt;ProductContentType&gt;对内容进行描述，用&lt;ProductFormFeatureType&gt;列出详细的技术需求</explane>
+</code>
+<code id="E139">
+<name>CEB</name>
+<explane>Chinese E-paper Basic，北大方正专有的版式文件格式</explane>
+</code>
+<code id="E140">
+<name>CEBX</name>
+<explane>Common e-Document of Blending XML，北大方正专有的基于XML的电子文档格式</explane>
+</code>
+</list>

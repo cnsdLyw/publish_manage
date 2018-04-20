@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>无条码</name>
+<explane> </explane>
+</code>
+<code id="01">
+<name>无方案条码</name>
+<explane>有条码，未说明方案</explane>
+</code>
+<code id="02">
+<name>GTIN-13</name>
+<explane>13位数字全球贸易项目代码，以前为EAN商品代码</explane>
+</code>
+</list>

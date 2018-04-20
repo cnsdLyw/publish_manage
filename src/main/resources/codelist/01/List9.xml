@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>WCO商品协调分类体系</name>
+<explane>世界海关组织商品协调分类体系</explane>
+</code>
+<code id="02">
+<name>UNSPSC</name>
+<explane>联合国标准产品与服务分类</explane>
+</code>
+<code id="07">
+<name>发送方目录</name>
+<explane>发送方指定的产品目录</explane>
+</code>
+<code id="08">
+<name>中国统计分类</name>
+<explane>中国新闻出版行政部门规定的统计分类</explane>
+</code>
+</list>

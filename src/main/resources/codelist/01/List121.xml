@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="Arab">
+<name>阿拉伯语</name>
+<explane/>
+</code>
+<code id="Armi">
+<name>帝国亚美尼亚文</name>
+<explane/>
+</code>
+<code id="Armn">
+<name>亚美尼亚文</name>
+<explane/>
+</code>
+<code id="Avst">
+<name>阿维斯陀语</name>
+<explane/>
+</code>
+<code id="Bali">
+<name>巴厘语</name>
+<explane/>
+</code>
+<code id="Batk">
+<name>巴塔克文</name>
+<explane/>
+</code>
+<code id="Beng">
+<name>孟加拉语</name>
+<explane/>
+</code>
+<code id="Blis">
+<name>布利斯符号</name>
+<explane/>
+</code>
+<code id="Bopo">
+<name>汉语拼音字母</name>
+<explane/>
+</code>
+<code id="Brah">
+<name>婆罗迷文</name>
+<explane/>
+</code>
+<code id="Brai">
+<name>布莱叶盲文</name>
+<explane/>
+</code>
+<code id="Bugi">
+<name>布吉语</name>
+<explane/>
+</code>
+<code id="Buhd">
+<name>布迪文</name>
+<explane/>
+</code>
+<code id="Cakm">
+<name>查克马语</name>
+<explane/>
+</code>
+<code id="Cans">
+<name>加拿大土著统一音节文字</name>
+<explane/>
+</code>
+<code id="Cari">
+<name>卡里亚语</name>
+<explane/>
+</code>
+<code id="Cham">
+<name>占语</name>
+<explane/>
+</code>
+<code id="Cher">
+<name>切罗基语</name>
+<explane/>
+</code>
+<code id="Cirt">
+<name>色斯文</name>
+<explane/>
+</code>
+<code id="Copt">
+<name>科普特语</name>
+<explane/>
+</code>
+<code id="Cprt">
+<name>塞浦路斯语</name>
+<explane/>
+</code>
+<code id="Cyrl">
+<name>古斯拉夫字母</name>
+<explane/>
+</code>
+<code id="Cyrs">
+<name>古斯拉夫字母</name>
+<explane>古教会斯拉夫语变种</explane>
+</code>
+<code id="Deva">
+<name>梵文</name>
+<explane>纳加列文</explane>
+</code>
+<code id="Dsrt">
+<name>犹他语</name>
+<explane>摩门教</explane>
+</code>
+<code id="Egyd">
+<name>埃及世俗体</name>
+<explane/>
+</code>
+<code id="Egyh">
+<name>埃及僧侣体</name>
+<explane/>
+</code>
+<code id="Egyp">
+<name>埃及象形文字</name>
+<explane/>
+</code>
+<code id="Ethi">
+<name>埃塞尔比亚语</name>
+<explane/>
+</code>
+<code id="Geok">
+<name>格鲁吉亚语</name>
+<explane/>
+</code>
+<code id="Geor">
+<name>乔治亚文</name>
+<explane/>
+</code>
+<code id="Glag">
+<name>格里高利字母</name>
+<explane/>
+</code>
+<code id="Goth">
+<name>哥特文字</name>
+<explane/>
+</code>
+<code id="Grek">
+<name>希腊语</name>
+<explane/>
+</code>
+<code id="Gujr">
+<name>吉吉拉特语</name>
+<explane/>
+</code>
+<code id="Guru">
+<name>果鲁穆奇字母</name>
+<explane/>
+</code>
+<code id="Hang">
+<name>朝鲜文</name>
+<explane/>
+</code>
+<code id="Hani">
+<name>中文</name>
+<explane/>
+</code>
+<code id="Hano">
+<name>哈努诺文</name>
+<explane/>
+</code>
+<code id="Hans">
+<name>简体中文</name>
+<explane/>
+</code>
+<code id="Hant">
+<name>繁体中文</name>
+<explane/>
+</code>
+<code id="Hebr">
+<name>希伯来语</name>
+<explane/>
+</code>
+<code id="Hira">
+<name>日文平假名</name>
+<explane/>
+</code>
+<code id="Hmng">
+<name>杨松录苗文</name>
+<explane/>
+</code>
+<code id="Hrkt">
+<name>平假名+片假名的别称</name>
+<explane/>
+</code>
+<code id="Hung">
+<name>古匈牙利文</name>
+<explane/>
+</code>
+<code id="Inds">
+<name>安座文</name>
+<explane>哈拉帕</explane>
+</code>
+<code id="Ital">
+<name>古意大利文</name>
+<explane>伊特鲁西亚文，欧斯干文等</explane>
+</code>
+<code id="Java">
+<name>爪哇语</name>
+<explane/>
+</code>
+<code id="Kali">
+<name>克耶语</name>
+<explane/>
+</code>
+<code id="Kana">
+<name>片假名</name>
+<explane/>
+</code>
+<code id="Khar">
+<name>传卢文</name>
+<explane/>
+</code>
+<code id="Khmr">
+<name>高棉语</name>
+<explane/>
+</code>
+<code id="Knda">
+<name>埃纳德语</name>
+<explane/>
+</code>
+<code id="Kore">
+<name>朝鲜语</name>
+<explane>韩文+汉文的别称</explane>
+</code>
+<code id="Kthi">
+<name>凯提语</name>
+<explane/>
+</code>
+<code id="Lana">
+<name>兰纳文，老傣文</name>
+<explane/>
+</code>
+<code id="Laoo">
+<name>老挝语</name>
+<explane/>
+</code>
+<code id="Latf">
+<name>拉丁文</name>
+<explane>德文活字变种</explane>
+</code>
+<code id="Latg">
+<name>拉丁文</name>
+<explane>盖尔语变种</explane>
+</code>
+<code id="Latn">
+<name>拉丁文</name>
+<explane/>
+</code>
+<code id="Lepc">
+<name>雷布查语</name>
+<explane/>
+</code>
+<code id="Limb">
+<name>林布语</name>
+<explane/>
+</code>
+<code id="Lina">
+<name>A类线形文字</name>
+<explane/>
+</code>
+<code id="Linb">
+<name>B类线形文字</name>
+<explane/>
+</code>
+<code id="Lyci">
+<name>利西亚语</name>
+<explane/>
+</code>
+<code id="Lydi">
+<name>吕底亚语</name>
+<explane/>
+</code>
+<code id="Mand">
+<name>曼达语</name>
+<explane/>
+</code>
+<code id="Mani">
+<name>摩尼教语</name>
+<explane/>
+</code>
+<code id="Maya">
+<name>玛雅象形文字</name>
+<explane/>
+</code>
+<code id="Mero">
+<name>梅罗伊文</name>
+<explane/>
+</code>
+<code id="Mlym">
+<name>马拉雅拉姆语</name>
+<explane/>
+</code>
+<code id="Mong">
+<name>蒙古语</name>
+<explane/>
+</code>
+<code id="Mymr">
+<name>缅甸语</name>
+<explane/>
+</code>
+<code id="Nkoo">
+<name>N’Ko字母表</name>
+<explane/>
+</code>
+<code id="Ogam">
+<name>欧甘文字</name>
+<explane/>
+</code>
+<code id="Olck">
+<name>桑塔利语</name>
+<explane/>
+</code>
+<code id="Orkh">
+<name>鄂尔浑文</name>
+<explane/>
+</code>
+<code id="Orya">
+<name>奥里萨语</name>
+<explane/>
+</code>
+<code id="Osma">
+<name>索马里字母</name>
+<explane/>
+</code>
+<code id="Perm">
+<name>古彼尔姆语</name>
+<explane/>
+</code>
+<code id="Phag">
+<name>八思巴文</name>
+<explane/>
+</code>
+<code id="Phli">
+<name>旧体巴拉维语</name>
+<explane/>
+</code>
+<code id="Phlp">
+<name>巴拉维诗篇体</name>
+<explane/>
+</code>
+<code id="Phlv">
+<name>巴拉维书籍体</name>
+<explane/>
+</code>
+<code id="Phnx">
+<name>腓尼基文字</name>
+<explane/>
+</code>
+<code id="Plrd">
+<name>音标字母</name>
+<explane/>
+</code>
+<code id="Prti">
+<name>旧体帕提亚文</name>
+<explane/>
+</code>
+<code id="Qaaa">
+<name>私有保留使用（起始）</name>
+<explane/>
+</code>
+<code id="Qabx">
+<name>私有保留使用（终止）</name>
+<explane/>
+</code>
+<code id="Rjng">
+<name>拉让文</name>
+<explane/>
+</code>
+<code id="Roro">
+<name>朗格朗格文</name>
+<explane/>
+</code>
+<code id="Runr">
+<name>古代北欧文</name>
+<explane/>
+</code>
+<code id="Samr">
+<name>撒玛利亚字母</name>
+<explane/>
+</code>
+<code id="Sara">
+<name>沙拉堤文</name>
+<explane/>
+</code>
+<code id="Saur">
+<name>索拉什特拉语</name>
+<explane/>
+</code>
+<code id="Shaw">
+<name>萧伯纳文字</name>
+<explane/>
+</code>
+<code id="Sinh">
+<name>僧伽罗字母</name>
+<explane/>
+</code>
+<code id="Sund">
+<name>巽他文</name>
+<explane/>
+</code>
+<code id="Sylo">
+<name>书写体</name>
+<explane/>
+</code>
+<code id="Syrc">
+<name>叙利亚文</name>
+<explane/>
+</code>
+<code id="Syre">
+<name>叙利亚文（福音体变种）</name>
+<explane/>
+</code>
+<code id="Syrj">
+<name>叙利亚文（西方变种）</name>
+<explane/>
+</code>
+<code id="Syrn">
+<name>叙利亚文（东方变种）</name>
+<explane/>
+</code>
+<code id="Tagb">
+<name>塔格班瓦语</name>
+<explane/>
+</code>
+<code id="Tale">
+<name>泰乐语</name>
+<explane/>
+</code>
+<code id="Talu">
+<name>新傣仂语</name>
+<explane/>
+</code>
+<code id="Taml">
+<name>泰米尔语</name>
+<explane/>
+</code>
+<code id="Tavt">
+<name>越南语</name>
+<explane/>
+</code>
+<code id="Telu">
+<name>泰卢固语</name>
+<explane/>
+</code>
+<code id="Teng">
+<name>腾格瓦文字</name>
+<explane/>
+</code>
+<code id="Tfng">
+<name>提非纳文</name>
+<explane/>
+</code>
+<code id="Tglg">
+<name>塔加路语</name>
+<explane/>
+</code>
+<code id="Thaa">
+<name>塔安娜语</name>
+<explane/>
+</code>
+<code id="Thai">
+<name>泰语</name>
+<explane/>
+</code>
+<code id="Tibt">
+<name>藏语</name>
+<explane/>
+</code>
+<code id="Ugar">
+<name>乌加里特语</name>
+<explane/>
+</code>
+<code id="Vaii">
+<name>瓦伊文</name>
+<explane/>
+</code>
+<code id="Visp">
+<name>可见语言</name>
+<explane/>
+</code>
+<code id="Xpeo">
+<name>古波斯文</name>
+<explane/>
+</code>
+<code id="Xsux">
+<name>楔形文字</name>
+<explane/>
+</code>
+<code id="Yiii">
+<name>彝语</name>
+<explane/>
+</code>
+<code id="Zmth">
+<name>数学符号</name>
+<explane/>
+</code>
+<code id="Zsym">
+<name>符号</name>
+<explane/>
+</code>
+<code id="Zxxx">
+<name>沒有文字的語言代码</name>
+<explane/>
+</code>
+<code id="Zyyy">
+<name>未确定文字代码</name>
+<explane/>
+</code>
+<code id="Zzzz">
+<name>未编码文字代码</name>
+<explane/>
+</code>
+</list>

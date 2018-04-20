@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="05">
+<name>独家销售代理商</name>
+<explane>出版者在特定区域内的独家销售代理商</explane>
+</code>
+<code id="06">
+<name>非独家销售代理商</name>
+<explane>出版者在特定区域内的非独家销售代理商</explane>
+</code>
+<code id="07">
+<name>当地出版者</name>
+<explane>某一特定区域内的出版者</explane>
+</code>
+<code id="08">
+<name>销售代理</name>
+<explane>出版者在某一特定区域内的销售代理。仅在不明确“独家/非独家”状态时使用</explane>
+</code>
+</list>

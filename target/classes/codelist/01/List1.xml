@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>选题预告</name>
+<explane>出版前发布的选题预告信息的完整记录</explane>
+</code>
+<code id="03">
+<name>出版确认公告</name>
+<explane>出版或即将出版时提前发布的被确认的完整产品记录</explane>
+</code>
+<code id="04">
+<name>更新</name>
+<explane>对更新部分记录的发送</explane>
+</code>
+<code id="05">
+<name>删除</name>
+<explane>发送删除记录的指令。使用注意事项：&#13;1）当产品取消、绝版或类似原因不再销售时不能使用，应采用供应状态变更处理，由接收方决定是否保留记录；&#13;2）删除指令仅用于由于特殊原因应撤销产品的情况，如发行差错</explane>
+</code>
+</list>

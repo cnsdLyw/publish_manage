@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>无</name>
+<explane>产品上无印刷价格</explane>
+</code>
+<code id="02">
+<name>有</name>
+<explane>产品上有印刷价格</explane>
+</code>
+</list>

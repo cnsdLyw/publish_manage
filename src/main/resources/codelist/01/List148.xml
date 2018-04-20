@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="00">
+<name>未说明</name>
+<explane>默认值。套书类型未确认</explane>
+</code>
+<code id="10">
+<name>出版者套书</name>
+<explane>具有出版者指定套书标识的文献套书</explane>
+</code>
+<code id="20">
+<name>归类套书</name>
+<explane>由出版者之外的一方界定和标识的套书 </explane>
+</code>
+</list>

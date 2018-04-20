@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="BA">
+<name>图书</name>
+<explane/>
+</code>
+<code id="BB">
+<name>精装书</name>
+<explane>精装或盒装书</explane>
+</code>
+<code id="BC">
+<name>简装书 / 软皮书</name>
+<explane>简装书或其他软皮书</explane>
+</code>
+<code id="DG">
+<name>电子图书</name>
+<explane>使用专业格式或开放标准格式的电子图书文本</explane>
+</code>
+<code id="BZ">
+<name>其他图书格式</name>
+<explane>代码BB 到BP中没有包括的其他图书格式或装订格式</explane>
+</code>
+</list>

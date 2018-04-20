@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<list>
+<code id="01">
+<name>未知</name>
+<explane> </explane>
+</code>
+<code id="02">
+<name>匿名</name>
+<explane> </explane>
+</code>
+<code id="03">
+<name>其他</name>
+<explane>未在名单中列出的其他提供者</explane>
+</code>
+<code id="04">
+<name>多作者</name>
+<explane>当打包产品中的书为不同作者时使用</explane>
+</code>
+<code id="05">
+<name>合成语音-男声</name>
+<explane>盲人使用的有声读物须用“表B.11 提供者角色代码表”中的“E07 朗读者”代码</explane>
+</code>
+<code id="06">
+<name>合成语音-女声</name>
+<explane>盲人使用的有声读物须用“表B.11 提供者角色代码表”中的“E07 朗读者”代码</explane>
+</code>
+<code id="07">
+<name>合成语音-未说明</name>
+<explane>盲人使用的有声读物须用“表B.11 提供者角色代码表”中的“E07 朗读者”代码</explane>
+</code>
+</list>
